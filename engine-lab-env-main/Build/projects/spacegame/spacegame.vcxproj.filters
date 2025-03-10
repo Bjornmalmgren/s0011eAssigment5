@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\projects\spacegame\code\main.cc">
+      <Filter>spacegame</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\projects\spacegame\code\spacegameapp.cc">
+      <Filter>spacegame</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\projects\spacegame\code\spaceship.cc">
+      <Filter>spacegame</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\projects\spacegame\code\spacegameapp.h">
+      <Filter>spacegame</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\projects\spacegame\code\spaceship.h">
+      <Filter>spacegame</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\projects\spacegame\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="spacegame">
+      <UniqueIdentifier>{ECC9F6CE-D2FD-3400-BA08-72709C9F5B5B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

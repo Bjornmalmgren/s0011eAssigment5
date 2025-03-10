@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\Build\CMakeFiles\3fb6aaa5492a5fb6ec441f90e18204d8\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{0B6E55C2-5FA0-36B6-AFD5-6DF8BB96A386}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
