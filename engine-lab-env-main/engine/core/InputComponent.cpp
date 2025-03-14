@@ -2,6 +2,7 @@
 #include "InputComponent.h"
 #include "core/transform.h"
 #include "render/physics.h"
+#include "render/ParticleComponent.h"
 using namespace Input;
 using namespace glm;
 void InputComponent::Update(double dt) {
@@ -29,4 +30,6 @@ void InputComponent::Update(double dt) {
     rotX = kbd->held[Key::Left] ? 1.0f : kbd->held[Key::Right] ? -1.0f : 0.0f;
     rotY = kbd->held[Key::Up] ? -1.0f : kbd->held[Key::Down] ? 1.0f : 0.0f;
     rotZ = kbd->held[Key::A] ? -1.0f : kbd->held[Key::D] ? 1.0f : 0.0f;
+    
+    
 }

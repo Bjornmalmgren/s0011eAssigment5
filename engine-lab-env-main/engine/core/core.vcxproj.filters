@@ -1,93 +1,97 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\core\Allocator.cpp">
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\Allocator.cpp">
       <Filter>core</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\core\ComponentBase.cpp">
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\ComponentBase.cpp">
       <Filter>core</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\core\Entity.cpp">
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\Entity.cpp">
       <Filter>core</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\core\app.cc">
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\app.cc">
       <Filter>core</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\core\debug.cc">
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\debug.cc">
       <Filter>core</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\core\random.cc">
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\random.cc">
       <Filter>core</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\core\cvar.cc">
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\cvar.cc">
       <Filter>core</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\core\transform.cpp">
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\transform.cpp">
       <Filter>core</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\core\InputComponent.cpp">
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\InputComponent.cpp">
       <Filter>core</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\core\World.cpp">
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\World.cpp">
       <Filter>core</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\core\StarShipManager.cpp">
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\StarShipManager.cpp">
       <Filter>core</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\config.cc">
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\config.cc">
       <Filter>pch</Filter>
     </ClCompile>
+    <ClCompile Include="AiMovement.cpp" />
+    <ClCompile Include="AiManager.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\core\Allocator.h">
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\Allocator.h">
       <Filter>core</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\core\ComponentBase.h">
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\ComponentBase.h">
       <Filter>core</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\core\Entity.h">
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\Entity.h">
       <Filter>core</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\core\app.h">
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\app.h">
       <Filter>core</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\core\debug.h">
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\debug.h">
       <Filter>core</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\core\random.h">
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\random.h">
       <Filter>core</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\core\cvar.h">
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\cvar.h">
       <Filter>core</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\core\idpool.h">
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\idpool.h">
       <Filter>core</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\core\transform.h">
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\transform.h">
       <Filter>core</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\core\InputComponent.h">
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\InputComponent.h">
       <Filter>core</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\core\World.h">
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\World.h">
       <Filter>core</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\core\StarShipManager.h">
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\StarShipManager.h">
       <Filter>core</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\config.h">
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\config.h">
       <Filter>pch</Filter>
     </ClInclude>
+    <ClInclude Include="AiMovement.h" />
+    <ClInclude Include="AiManager.h" />
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\core\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="core">
-      <UniqueIdentifier>{A631D38C-ECE9-3BE1-AA67-6A07BF3066EC}</UniqueIdentifier>
+      <UniqueIdentifier>{249DE29D-F417-37B6-AFBF-0E0226489D14}</UniqueIdentifier>
     </Filter>
     <Filter Include="pch">
-      <UniqueIdentifier>{63DE4658-C1B9-3F4C-86E4-44E05AD22C25}</UniqueIdentifier>
+      <UniqueIdentifier>{D6001D7E-1809-3825-A92B-D8DFDE06F927}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

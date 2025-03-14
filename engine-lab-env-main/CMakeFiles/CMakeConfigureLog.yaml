@@ -24,9 +24,9 @@ events:
       The output was:
       0
       MSBuild version 17.11.2+c078802d4 for .NET Framework
-      Build started 2025-02-19 12:30:38.
+      Build started 2025-03-10 14:26:35.
       
-      Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\3.30.3\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\3.30.3\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
         Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
@@ -39,7 +39,7 @@ events:
         CMakeCCompilerId.c
       Link:
         C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
-        CompilerIdC.vcxproj -> C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\3.30.3\\CompilerIdC\\CompilerIdC.exe
+        CompilerIdC.vcxproj -> C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\3.30.3\\CompilerIdC\\CompilerIdC.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
         :VCEnd
@@ -47,13 +47,13 @@ events:
       FinalizeBuildStatus:
         Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
         Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
-      Done Building Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\3.30.3\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      Done Building Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\3.30.3\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
       
       Build succeeded.
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.60
+      Time Elapsed 00:00:00.78
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -61,7 +61,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
       
       The C compiler identification is MSVC, found in:
-        C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/3.30.3/CompilerIdC/CompilerIdC.exe
+        C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/3.30.3/CompilerIdC/CompilerIdC.exe
       
   -
     kind: "message-v1"
@@ -79,9 +79,9 @@ events:
       The output was:
       0
       MSBuild version 17.11.2+c078802d4 for .NET Framework
-      Build started 2025-02-19 12:30:38.
+      Build started 2025-03-10 14:26:36.
       
-      Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\3.30.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\3.30.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
         Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
@@ -94,7 +94,7 @@ events:
         CMakeCXXCompilerId.cpp
       Link:
         C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
-        CompilerIdCXX.vcxproj -> C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\3.30.3\\CompilerIdCXX\\CompilerIdCXX.exe
+        CompilerIdCXX.vcxproj -> C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\3.30.3\\CompilerIdCXX\\CompilerIdCXX.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
         :VCEnd
@@ -102,13 +102,13 @@ events:
       FinalizeBuildStatus:
         Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
         Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
-      Done Building Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\3.30.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      Done Building Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\3.30.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
       
       Build succeeded.
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.61
+      Time Elapsed 00:00:00.60
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -116,7 +116,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
       
       The CXX compiler identification is MSVC, found in:
-        C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/3.30.3/CompilerIdCXX/CompilerIdCXX.exe
+        C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/3.30.3/CompilerIdCXX/CompilerIdCXX.exe
       
   -
     kind: "try_compile-v1"
@@ -127,48 +127,48 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-beodcs"
-      binary: "C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-beodcs"
+      source: "C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-g5axur"
+      binary: "C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-g5axur"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-beodcs'
+        Change Dir: 'C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-g5axur'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_08020.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8d673.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.11.2+c078802d4 for .NET Framework
-        Build started 2025-02-19 12:30:39.
+        Build started 2025-03-10 14:26:37.
         
-        Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-beodcs\\cmTC_08020.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-g5axur\\cmTC_8d673.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_08020.dir\\Debug\\".
+          Creating directory "cmTC_8d673.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-beodcs\\Debug\\".
-          Creating directory "cmTC_08020.dir\\Debug\\cmTC_08020.tlog\\".
+          Creating directory "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-g5axur\\Debug\\".
+          Creating directory "cmTC_8d673.dir\\Debug\\cmTC_8d673.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_08020.dir\\Debug\\cmTC_08020.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_08020.dir\\Debug\\cmTC_08020.tlog\\unsuccessfulbuild".
+          Creating "cmTC_8d673.dir\\Debug\\cmTC_8d673.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_8d673.dir\\Debug\\cmTC_8d673.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_08020.dir\\Debug\\\\" /Fd"cmTC_08020.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8d673.dir\\Debug\\\\" /Fd"cmTC_8d673.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_08020.dir\\Debug\\\\" /Fd"cmTC_08020.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8d673.dir\\Debug\\\\" /Fd"cmTC_8d673.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-beodcs\\Debug\\cmTC_08020.exe" /INCREMENTAL /ILK:"cmTC_08020.dir\\Debug\\cmTC_08020.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-beodcs/Debug/cmTC_08020.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-beodcs/Debug/cmTC_08020.lib" /MACHINE:X64  /machine:x64 cmTC_08020.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_08020.vcxproj -> C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-beodcs\\Debug\\cmTC_08020.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-g5axur\\Debug\\cmTC_8d673.exe" /INCREMENTAL /ILK:"cmTC_8d673.dir\\Debug\\cmTC_8d673.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-g5axur/Debug/cmTC_8d673.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-g5axur/Debug/cmTC_8d673.lib" /MACHINE:X64  /machine:x64 cmTC_8d673.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_8d673.vcxproj -> C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-g5axur\\Debug\\cmTC_8d673.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_08020.dir\\Debug\\cmTC_08020.tlog\\unsuccessfulbuild".
-          Touching "cmTC_08020.dir\\Debug\\cmTC_08020.tlog\\cmTC_08020.lastbuildstate".
-        Done Building Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-beodcs\\cmTC_08020.vcxproj" (default targets).
+          Deleting file "cmTC_8d673.dir\\Debug\\cmTC_8d673.tlog\\unsuccessfulbuild".
+          Touching "cmTC_8d673.dir\\Debug\\cmTC_8d673.tlog\\cmTC_8d673.lastbuildstate".
+        Done Building Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-g5axur\\cmTC_8d673.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.56
+        Time Elapsed 00:00:00.55
         
       exitCode: 0
   -
@@ -208,8 +208,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-p2ieiy"
-      binary: "C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-p2ieiy"
+      source: "C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-v4blzx"
+      binary: "C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-v4blzx"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
@@ -217,40 +217,40 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-p2ieiy'
+        Change Dir: 'C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-v4blzx'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_da90f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_46bac.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.11.2+c078802d4 for .NET Framework
-        Build started 2025-02-19 12:30:40.
+        Build started 2025-03-10 14:26:38.
         
-        Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-p2ieiy\\cmTC_da90f.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-v4blzx\\cmTC_46bac.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_da90f.dir\\Debug\\".
+          Creating directory "cmTC_46bac.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-p2ieiy\\Debug\\".
-          Creating directory "cmTC_da90f.dir\\Debug\\cmTC_da90f.tlog\\".
+          Creating directory "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-v4blzx\\Debug\\".
+          Creating directory "cmTC_46bac.dir\\Debug\\cmTC_46bac.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_da90f.dir\\Debug\\cmTC_da90f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_da90f.dir\\Debug\\cmTC_da90f.tlog\\unsuccessfulbuild".
+          Creating "cmTC_46bac.dir\\Debug\\cmTC_46bac.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_46bac.dir\\Debug\\cmTC_46bac.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_da90f.dir\\Debug\\\\" /Fd"cmTC_da90f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_46bac.dir\\Debug\\\\" /Fd"cmTC_46bac.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_da90f.dir\\Debug\\\\" /Fd"cmTC_da90f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_46bac.dir\\Debug\\\\" /Fd"cmTC_46bac.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-p2ieiy\\Debug\\cmTC_da90f.exe" /INCREMENTAL /ILK:"cmTC_da90f.dir\\Debug\\cmTC_da90f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-p2ieiy/Debug/cmTC_da90f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-p2ieiy/Debug/cmTC_da90f.lib" /MACHINE:X64  /machine:x64 cmTC_da90f.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_da90f.vcxproj -> C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-p2ieiy\\Debug\\cmTC_da90f.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-v4blzx\\Debug\\cmTC_46bac.exe" /INCREMENTAL /ILK:"cmTC_46bac.dir\\Debug\\cmTC_46bac.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-v4blzx/Debug/cmTC_46bac.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-v4blzx/Debug/cmTC_46bac.lib" /MACHINE:X64  /machine:x64 cmTC_46bac.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_46bac.vcxproj -> C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-v4blzx\\Debug\\cmTC_46bac.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_da90f.dir\\Debug\\cmTC_da90f.tlog\\unsuccessfulbuild".
-          Touching "cmTC_da90f.dir\\Debug\\cmTC_da90f.tlog\\cmTC_da90f.lastbuildstate".
-        Done Building Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-p2ieiy\\cmTC_da90f.vcxproj" (default targets).
+          Deleting file "cmTC_46bac.dir\\Debug\\cmTC_46bac.tlog\\unsuccessfulbuild".
+          Touching "cmTC_46bac.dir\\Debug\\cmTC_46bac.tlog\\cmTC_46bac.lastbuildstate".
+        Done Building Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-v4blzx\\cmTC_46bac.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.57
+        Time Elapsed 00:00:00.56
         
       exitCode: 0
   -
@@ -289,8 +289,8 @@ events:
     checks:
       - "Looking for fcntl"
     directories:
-      source: "C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-x03unc"
-      binary: "C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-x03unc"
+      source: "C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-ffnlli"
+      binary: "C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-ffnlli"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -299,39 +299,97 @@ events:
       variable: "HAS_FCNTL"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-x03unc'
+        Change Dir: 'C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-ffnlli'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d0d37.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_70a39.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.11.2+c078802d4 for .NET Framework
-        Build started 2025-02-19 12:30:41.
+        Build started 2025-03-10 14:26:39.
         
-        Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-x03unc\\cmTC_d0d37.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-ffnlli\\cmTC_70a39.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_d0d37.dir\\Debug\\".
+          Creating directory "cmTC_70a39.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-x03unc\\Debug\\".
-          Creating directory "cmTC_d0d37.dir\\Debug\\cmTC_d0d37.tlog\\".
+          Creating directory "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-ffnlli\\Debug\\".
+          Creating directory "cmTC_70a39.dir\\Debug\\cmTC_70a39.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_d0d37.dir\\Debug\\cmTC_d0d37.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_d0d37.dir\\Debug\\cmTC_d0d37.tlog\\unsuccessfulbuild".
+          Creating "cmTC_70a39.dir\\Debug\\cmTC_70a39.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_70a39.dir\\Debug\\cmTC_70a39.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fcntl /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d0d37.dir\\Debug\\\\" /Fd"cmTC_d0d37.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-x03unc\\CheckFunctionExists.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fcntl /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_70a39.dir\\Debug\\\\" /Fd"cmTC_70a39.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-ffnlli\\CheckFunctionExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fcntl /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d0d37.dir\\Debug\\\\" /Fd"cmTC_d0d37.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-x03unc\\CheckFunctionExists.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fcntl /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_70a39.dir\\Debug\\\\" /Fd"cmTC_70a39.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-ffnlli\\CheckFunctionExists.c"
           CheckFunctionExists.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-x03unc\\Debug\\cmTC_d0d37.exe" /INCREMENTAL /ILK:"cmTC_d0d37.dir\\Debug\\cmTC_d0d37.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-x03unc/Debug/cmTC_d0d37.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-x03unc/Debug/cmTC_d0d37.lib" /MACHINE:X64  /machine:x64 cmTC_d0d37.dir\\Debug\\CheckFunctionExists.obj
-        CheckFunctionExists.obj : error LNK2019: unresolved external symbol fcntl referenced in function main [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-x03unc\\cmTC_d0d37.vcxproj]
-        C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-x03unc\\Debug\\cmTC_d0d37.exe : fatal error LNK1120: 1 unresolved externals [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-x03unc\\cmTC_d0d37.vcxproj]
-        Done Building Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-x03unc\\cmTC_d0d37.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-ffnlli\\Debug\\cmTC_70a39.exe" /INCREMENTAL /ILK:"cmTC_70a39.dir\\Debug\\cmTC_70a39.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-ffnlli/Debug/cmTC_70a39.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-ffnlli/Debug/cmTC_70a39.lib" /MACHINE:X64  /machine:x64 cmTC_70a39.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: unresolved external symbol fcntl referenced in function main [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-ffnlli\\cmTC_70a39.vcxproj]
+        C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-ffnlli\\Debug\\cmTC_70a39.exe : fatal error LNK1120: 1 unresolved externals [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-ffnlli\\cmTC_70a39.vcxproj]
+        Done Building Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-ffnlli\\cmTC_70a39.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-x03unc\\cmTC_d0d37.vcxproj" (default target) (1) ->
+        "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-ffnlli\\cmTC_70a39.vcxproj" (default target) (1) ->
         (Link target) -> 
-          CheckFunctionExists.obj : error LNK2019: unresolved external symbol fcntl referenced in function main [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-x03unc\\cmTC_d0d37.vcxproj]
-          C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-x03unc\\Debug\\cmTC_d0d37.exe : fatal error LNK1120: 1 unresolved externals [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-x03unc\\cmTC_d0d37.vcxproj]
+          CheckFunctionExists.obj : error LNK2019: unresolved external symbol fcntl referenced in function main [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-ffnlli\\cmTC_70a39.vcxproj]
+          C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-ffnlli\\Debug\\cmTC_70a39.exe : fatal error LNK1120: 1 unresolved externals [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-ffnlli\\cmTC_70a39.vcxproj]
+        
+            0 Warning(s)
+            2 Error(s)
+        
+        Time Elapsed 00:00:00.50
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "exts/enet/CMakeLists.txt:10 (check_function_exists)"
+    checks:
+      - "Looking for poll"
+    directories:
+      source: "C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-wuakbu"
+      binary: "C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-wuakbu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAS_POLL"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-wuakbu'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e69e6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.2+c078802d4 for .NET Framework
+        Build started 2025-03-10 14:26:40.
+        
+        Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-wuakbu\\cmTC_e69e6.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_e69e6.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-wuakbu\\Debug\\".
+          Creating directory "cmTC_e69e6.dir\\Debug\\cmTC_e69e6.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_e69e6.dir\\Debug\\cmTC_e69e6.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_e69e6.dir\\Debug\\cmTC_e69e6.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=poll /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e69e6.dir\\Debug\\\\" /Fd"cmTC_e69e6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-wuakbu\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=poll /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e69e6.dir\\Debug\\\\" /Fd"cmTC_e69e6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-wuakbu\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-wuakbu\\Debug\\cmTC_e69e6.exe" /INCREMENTAL /ILK:"cmTC_e69e6.dir\\Debug\\cmTC_e69e6.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-wuakbu/Debug/cmTC_e69e6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-wuakbu/Debug/cmTC_e69e6.lib" /MACHINE:X64  /machine:x64 cmTC_e69e6.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: unresolved external symbol poll referenced in function main [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-wuakbu\\cmTC_e69e6.vcxproj]
+        C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-wuakbu\\Debug\\cmTC_e69e6.exe : fatal error LNK1120: 1 unresolved externals [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-wuakbu\\cmTC_e69e6.vcxproj]
+        Done Building Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-wuakbu\\cmTC_e69e6.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-wuakbu\\cmTC_e69e6.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          CheckFunctionExists.obj : error LNK2019: unresolved external symbol poll referenced in function main [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-wuakbu\\cmTC_e69e6.vcxproj]
+          C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-wuakbu\\Debug\\cmTC_e69e6.exe : fatal error LNK1120: 1 unresolved externals [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-wuakbu\\cmTC_e69e6.vcxproj]
         
             0 Warning(s)
             2 Error(s)
@@ -343,70 +401,12 @@ events:
     kind: "try_compile-v1"
     backtrace:
       - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckFunctionExists.cmake:86 (try_compile)"
-      - "exts/enet/CMakeLists.txt:10 (check_function_exists)"
-    checks:
-      - "Looking for poll"
-    directories:
-      source: "C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-byikcb"
-      binary: "C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-byikcb"
-    cmakeVariables:
-      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
-      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-    buildResult:
-      variable: "HAS_POLL"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-byikcb'
-        
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8c59e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        MSBuild version 17.11.2+c078802d4 for .NET Framework
-        Build started 2025-02-19 12:30:42.
-        
-        Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-byikcb\\cmTC_8c59e.vcxproj" on node 1 (default targets).
-        PrepareForBuild:
-          Creating directory "cmTC_8c59e.dir\\Debug\\".
-          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-byikcb\\Debug\\".
-          Creating directory "cmTC_8c59e.dir\\Debug\\cmTC_8c59e.tlog\\".
-        InitializeBuildStatus:
-          Creating "cmTC_8c59e.dir\\Debug\\cmTC_8c59e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_8c59e.dir\\Debug\\cmTC_8c59e.tlog\\unsuccessfulbuild".
-        ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=poll /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8c59e.dir\\Debug\\\\" /Fd"cmTC_8c59e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-byikcb\\CheckFunctionExists.c"
-          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
-          Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=poll /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8c59e.dir\\Debug\\\\" /Fd"cmTC_8c59e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-byikcb\\CheckFunctionExists.c"
-          CheckFunctionExists.c
-        Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-byikcb\\Debug\\cmTC_8c59e.exe" /INCREMENTAL /ILK:"cmTC_8c59e.dir\\Debug\\cmTC_8c59e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-byikcb/Debug/cmTC_8c59e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-byikcb/Debug/cmTC_8c59e.lib" /MACHINE:X64  /machine:x64 cmTC_8c59e.dir\\Debug\\CheckFunctionExists.obj
-        CheckFunctionExists.obj : error LNK2019: unresolved external symbol poll referenced in function main [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-byikcb\\cmTC_8c59e.vcxproj]
-        C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-byikcb\\Debug\\cmTC_8c59e.exe : fatal error LNK1120: 1 unresolved externals [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-byikcb\\cmTC_8c59e.vcxproj]
-        Done Building Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-byikcb\\cmTC_8c59e.vcxproj" (default targets) -- FAILED.
-        
-        Build FAILED.
-        
-        "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-byikcb\\cmTC_8c59e.vcxproj" (default target) (1) ->
-        (Link target) -> 
-          CheckFunctionExists.obj : error LNK2019: unresolved external symbol poll referenced in function main [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-byikcb\\cmTC_8c59e.vcxproj]
-          C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-byikcb\\Debug\\cmTC_8c59e.exe : fatal error LNK1120: 1 unresolved externals [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-byikcb\\cmTC_8c59e.vcxproj]
-        
-            0 Warning(s)
-            2 Error(s)
-        
-        Time Elapsed 00:00:00.52
-        
-      exitCode: 1
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckFunctionExists.cmake:86 (try_compile)"
       - "exts/enet/CMakeLists.txt:11 (check_function_exists)"
     checks:
       - "Looking for getaddrinfo"
     directories:
-      source: "C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-wr3odc"
-      binary: "C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-wr3odc"
+      source: "C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-lbzgow"
+      binary: "C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-lbzgow"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -415,39 +415,213 @@ events:
       variable: "HAS_GETADDRINFO"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-wr3odc'
+        Change Dir: 'C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-lbzgow'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0eaa2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_35532.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.11.2+c078802d4 for .NET Framework
-        Build started 2025-02-19 12:30:43.
+        Build started 2025-03-10 14:26:40.
         
-        Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-wr3odc\\cmTC_0eaa2.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-lbzgow\\cmTC_35532.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_0eaa2.dir\\Debug\\".
+          Creating directory "cmTC_35532.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-wr3odc\\Debug\\".
-          Creating directory "cmTC_0eaa2.dir\\Debug\\cmTC_0eaa2.tlog\\".
+          Creating directory "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-lbzgow\\Debug\\".
+          Creating directory "cmTC_35532.dir\\Debug\\cmTC_35532.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_0eaa2.dir\\Debug\\cmTC_0eaa2.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_0eaa2.dir\\Debug\\cmTC_0eaa2.tlog\\unsuccessfulbuild".
+          Creating "cmTC_35532.dir\\Debug\\cmTC_35532.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_35532.dir\\Debug\\cmTC_35532.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getaddrinfo /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0eaa2.dir\\Debug\\\\" /Fd"cmTC_0eaa2.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-wr3odc\\CheckFunctionExists.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getaddrinfo /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_35532.dir\\Debug\\\\" /Fd"cmTC_35532.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-lbzgow\\CheckFunctionExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getaddrinfo /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0eaa2.dir\\Debug\\\\" /Fd"cmTC_0eaa2.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-wr3odc\\CheckFunctionExists.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getaddrinfo /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_35532.dir\\Debug\\\\" /Fd"cmTC_35532.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-lbzgow\\CheckFunctionExists.c"
           CheckFunctionExists.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-wr3odc\\Debug\\cmTC_0eaa2.exe" /INCREMENTAL /ILK:"cmTC_0eaa2.dir\\Debug\\cmTC_0eaa2.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-wr3odc/Debug/cmTC_0eaa2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-wr3odc/Debug/cmTC_0eaa2.lib" /MACHINE:X64  /machine:x64 cmTC_0eaa2.dir\\Debug\\CheckFunctionExists.obj
-        CheckFunctionExists.obj : error LNK2019: unresolved external symbol getaddrinfo referenced in function main [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-wr3odc\\cmTC_0eaa2.vcxproj]
-        C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-wr3odc\\Debug\\cmTC_0eaa2.exe : fatal error LNK1120: 1 unresolved externals [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-wr3odc\\cmTC_0eaa2.vcxproj]
-        Done Building Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-wr3odc\\cmTC_0eaa2.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-lbzgow\\Debug\\cmTC_35532.exe" /INCREMENTAL /ILK:"cmTC_35532.dir\\Debug\\cmTC_35532.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-lbzgow/Debug/cmTC_35532.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-lbzgow/Debug/cmTC_35532.lib" /MACHINE:X64  /machine:x64 cmTC_35532.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: unresolved external symbol getaddrinfo referenced in function main [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-lbzgow\\cmTC_35532.vcxproj]
+        C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-lbzgow\\Debug\\cmTC_35532.exe : fatal error LNK1120: 1 unresolved externals [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-lbzgow\\cmTC_35532.vcxproj]
+        Done Building Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-lbzgow\\cmTC_35532.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-wr3odc\\cmTC_0eaa2.vcxproj" (default target) (1) ->
+        "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-lbzgow\\cmTC_35532.vcxproj" (default target) (1) ->
         (Link target) -> 
-          CheckFunctionExists.obj : error LNK2019: unresolved external symbol getaddrinfo referenced in function main [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-wr3odc\\cmTC_0eaa2.vcxproj]
-          C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-wr3odc\\Debug\\cmTC_0eaa2.exe : fatal error LNK1120: 1 unresolved externals [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-wr3odc\\cmTC_0eaa2.vcxproj]
+          CheckFunctionExists.obj : error LNK2019: unresolved external symbol getaddrinfo referenced in function main [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-lbzgow\\cmTC_35532.vcxproj]
+          C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-lbzgow\\Debug\\cmTC_35532.exe : fatal error LNK1120: 1 unresolved externals [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-lbzgow\\cmTC_35532.vcxproj]
+        
+            0 Warning(s)
+            2 Error(s)
+        
+        Time Elapsed 00:00:00.50
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "exts/enet/CMakeLists.txt:12 (check_function_exists)"
+    checks:
+      - "Looking for getnameinfo"
+    directories:
+      source: "C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-zhs87q"
+      binary: "C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-zhs87q"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAS_GETNAMEINFO"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-zhs87q'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_feec6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.2+c078802d4 for .NET Framework
+        Build started 2025-03-10 14:26:41.
+        
+        Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-zhs87q\\cmTC_feec6.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_feec6.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-zhs87q\\Debug\\".
+          Creating directory "cmTC_feec6.dir\\Debug\\cmTC_feec6.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_feec6.dir\\Debug\\cmTC_feec6.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_feec6.dir\\Debug\\cmTC_feec6.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getnameinfo /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_feec6.dir\\Debug\\\\" /Fd"cmTC_feec6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-zhs87q\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getnameinfo /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_feec6.dir\\Debug\\\\" /Fd"cmTC_feec6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-zhs87q\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-zhs87q\\Debug\\cmTC_feec6.exe" /INCREMENTAL /ILK:"cmTC_feec6.dir\\Debug\\cmTC_feec6.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-zhs87q/Debug/cmTC_feec6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-zhs87q/Debug/cmTC_feec6.lib" /MACHINE:X64  /machine:x64 cmTC_feec6.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: unresolved external symbol getnameinfo referenced in function main [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-zhs87q\\cmTC_feec6.vcxproj]
+        C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-zhs87q\\Debug\\cmTC_feec6.exe : fatal error LNK1120: 1 unresolved externals [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-zhs87q\\cmTC_feec6.vcxproj]
+        Done Building Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-zhs87q\\cmTC_feec6.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-zhs87q\\cmTC_feec6.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          CheckFunctionExists.obj : error LNK2019: unresolved external symbol getnameinfo referenced in function main [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-zhs87q\\cmTC_feec6.vcxproj]
+          C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-zhs87q\\Debug\\cmTC_feec6.exe : fatal error LNK1120: 1 unresolved externals [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-zhs87q\\cmTC_feec6.vcxproj]
+        
+            0 Warning(s)
+            2 Error(s)
+        
+        Time Elapsed 00:00:00.51
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "exts/enet/CMakeLists.txt:13 (check_function_exists)"
+    checks:
+      - "Looking for gethostbyname_r"
+    directories:
+      source: "C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-78jkyg"
+      binary: "C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-78jkyg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAS_GETHOSTBYNAME_R"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-78jkyg'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_26df7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.2+c078802d4 for .NET Framework
+        Build started 2025-03-10 14:26:42.
+        
+        Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-78jkyg\\cmTC_26df7.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_26df7.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-78jkyg\\Debug\\".
+          Creating directory "cmTC_26df7.dir\\Debug\\cmTC_26df7.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_26df7.dir\\Debug\\cmTC_26df7.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_26df7.dir\\Debug\\cmTC_26df7.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gethostbyname_r /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_26df7.dir\\Debug\\\\" /Fd"cmTC_26df7.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-78jkyg\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gethostbyname_r /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_26df7.dir\\Debug\\\\" /Fd"cmTC_26df7.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-78jkyg\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-78jkyg\\Debug\\cmTC_26df7.exe" /INCREMENTAL /ILK:"cmTC_26df7.dir\\Debug\\cmTC_26df7.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-78jkyg/Debug/cmTC_26df7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-78jkyg/Debug/cmTC_26df7.lib" /MACHINE:X64  /machine:x64 cmTC_26df7.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: unresolved external symbol gethostbyname_r referenced in function main [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-78jkyg\\cmTC_26df7.vcxproj]
+        C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-78jkyg\\Debug\\cmTC_26df7.exe : fatal error LNK1120: 1 unresolved externals [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-78jkyg\\cmTC_26df7.vcxproj]
+        Done Building Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-78jkyg\\cmTC_26df7.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-78jkyg\\cmTC_26df7.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          CheckFunctionExists.obj : error LNK2019: unresolved external symbol gethostbyname_r referenced in function main [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-78jkyg\\cmTC_26df7.vcxproj]
+          C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-78jkyg\\Debug\\cmTC_26df7.exe : fatal error LNK1120: 1 unresolved externals [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-78jkyg\\cmTC_26df7.vcxproj]
+        
+            0 Warning(s)
+            2 Error(s)
+        
+        Time Elapsed 00:00:00.50
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "exts/enet/CMakeLists.txt:14 (check_function_exists)"
+    checks:
+      - "Looking for gethostbyaddr_r"
+    directories:
+      source: "C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-6lggnj"
+      binary: "C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-6lggnj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAS_GETHOSTBYADDR_R"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-6lggnj'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_67852.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.2+c078802d4 for .NET Framework
+        Build started 2025-03-10 14:26:43.
+        
+        Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-6lggnj\\cmTC_67852.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_67852.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-6lggnj\\Debug\\".
+          Creating directory "cmTC_67852.dir\\Debug\\cmTC_67852.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_67852.dir\\Debug\\cmTC_67852.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_67852.dir\\Debug\\cmTC_67852.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gethostbyaddr_r /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_67852.dir\\Debug\\\\" /Fd"cmTC_67852.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-6lggnj\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gethostbyaddr_r /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_67852.dir\\Debug\\\\" /Fd"cmTC_67852.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-6lggnj\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-6lggnj\\Debug\\cmTC_67852.exe" /INCREMENTAL /ILK:"cmTC_67852.dir\\Debug\\cmTC_67852.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-6lggnj/Debug/cmTC_67852.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-6lggnj/Debug/cmTC_67852.lib" /MACHINE:X64  /machine:x64 cmTC_67852.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: unresolved external symbol gethostbyaddr_r referenced in function main [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-6lggnj\\cmTC_67852.vcxproj]
+        C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-6lggnj\\Debug\\cmTC_67852.exe : fatal error LNK1120: 1 unresolved externals [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-6lggnj\\cmTC_67852.vcxproj]
+        Done Building Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-6lggnj\\cmTC_67852.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-6lggnj\\cmTC_67852.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          CheckFunctionExists.obj : error LNK2019: unresolved external symbol gethostbyaddr_r referenced in function main [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-6lggnj\\cmTC_67852.vcxproj]
+          C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-6lggnj\\Debug\\cmTC_67852.exe : fatal error LNK1120: 1 unresolved externals [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-6lggnj\\cmTC_67852.vcxproj]
         
             0 Warning(s)
             2 Error(s)
@@ -459,186 +633,12 @@ events:
     kind: "try_compile-v1"
     backtrace:
       - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckFunctionExists.cmake:86 (try_compile)"
-      - "exts/enet/CMakeLists.txt:12 (check_function_exists)"
-    checks:
-      - "Looking for getnameinfo"
-    directories:
-      source: "C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-n76vs9"
-      binary: "C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-n76vs9"
-    cmakeVariables:
-      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
-      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-    buildResult:
-      variable: "HAS_GETNAMEINFO"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-n76vs9'
-        
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_73375.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        MSBuild version 17.11.2+c078802d4 for .NET Framework
-        Build started 2025-02-19 12:30:43.
-        
-        Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-n76vs9\\cmTC_73375.vcxproj" on node 1 (default targets).
-        PrepareForBuild:
-          Creating directory "cmTC_73375.dir\\Debug\\".
-          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-n76vs9\\Debug\\".
-          Creating directory "cmTC_73375.dir\\Debug\\cmTC_73375.tlog\\".
-        InitializeBuildStatus:
-          Creating "cmTC_73375.dir\\Debug\\cmTC_73375.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_73375.dir\\Debug\\cmTC_73375.tlog\\unsuccessfulbuild".
-        ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getnameinfo /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_73375.dir\\Debug\\\\" /Fd"cmTC_73375.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-n76vs9\\CheckFunctionExists.c"
-          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
-          Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getnameinfo /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_73375.dir\\Debug\\\\" /Fd"cmTC_73375.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-n76vs9\\CheckFunctionExists.c"
-          CheckFunctionExists.c
-        Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-n76vs9\\Debug\\cmTC_73375.exe" /INCREMENTAL /ILK:"cmTC_73375.dir\\Debug\\cmTC_73375.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-n76vs9/Debug/cmTC_73375.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-n76vs9/Debug/cmTC_73375.lib" /MACHINE:X64  /machine:x64 cmTC_73375.dir\\Debug\\CheckFunctionExists.obj
-        CheckFunctionExists.obj : error LNK2019: unresolved external symbol getnameinfo referenced in function main [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-n76vs9\\cmTC_73375.vcxproj]
-        C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-n76vs9\\Debug\\cmTC_73375.exe : fatal error LNK1120: 1 unresolved externals [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-n76vs9\\cmTC_73375.vcxproj]
-        Done Building Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-n76vs9\\cmTC_73375.vcxproj" (default targets) -- FAILED.
-        
-        Build FAILED.
-        
-        "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-n76vs9\\cmTC_73375.vcxproj" (default target) (1) ->
-        (Link target) -> 
-          CheckFunctionExists.obj : error LNK2019: unresolved external symbol getnameinfo referenced in function main [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-n76vs9\\cmTC_73375.vcxproj]
-          C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-n76vs9\\Debug\\cmTC_73375.exe : fatal error LNK1120: 1 unresolved externals [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-n76vs9\\cmTC_73375.vcxproj]
-        
-            0 Warning(s)
-            2 Error(s)
-        
-        Time Elapsed 00:00:00.54
-        
-      exitCode: 1
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckFunctionExists.cmake:86 (try_compile)"
-      - "exts/enet/CMakeLists.txt:13 (check_function_exists)"
-    checks:
-      - "Looking for gethostbyname_r"
-    directories:
-      source: "C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-qtrpwm"
-      binary: "C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-qtrpwm"
-    cmakeVariables:
-      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
-      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-    buildResult:
-      variable: "HAS_GETHOSTBYNAME_R"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-qtrpwm'
-        
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_569fd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        MSBuild version 17.11.2+c078802d4 for .NET Framework
-        Build started 2025-02-19 12:30:44.
-        
-        Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-qtrpwm\\cmTC_569fd.vcxproj" on node 1 (default targets).
-        PrepareForBuild:
-          Creating directory "cmTC_569fd.dir\\Debug\\".
-          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-qtrpwm\\Debug\\".
-          Creating directory "cmTC_569fd.dir\\Debug\\cmTC_569fd.tlog\\".
-        InitializeBuildStatus:
-          Creating "cmTC_569fd.dir\\Debug\\cmTC_569fd.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_569fd.dir\\Debug\\cmTC_569fd.tlog\\unsuccessfulbuild".
-        ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gethostbyname_r /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_569fd.dir\\Debug\\\\" /Fd"cmTC_569fd.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-qtrpwm\\CheckFunctionExists.c"
-          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
-          Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gethostbyname_r /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_569fd.dir\\Debug\\\\" /Fd"cmTC_569fd.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-qtrpwm\\CheckFunctionExists.c"
-          CheckFunctionExists.c
-        Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-qtrpwm\\Debug\\cmTC_569fd.exe" /INCREMENTAL /ILK:"cmTC_569fd.dir\\Debug\\cmTC_569fd.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-qtrpwm/Debug/cmTC_569fd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-qtrpwm/Debug/cmTC_569fd.lib" /MACHINE:X64  /machine:x64 cmTC_569fd.dir\\Debug\\CheckFunctionExists.obj
-        CheckFunctionExists.obj : error LNK2019: unresolved external symbol gethostbyname_r referenced in function main [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-qtrpwm\\cmTC_569fd.vcxproj]
-        C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-qtrpwm\\Debug\\cmTC_569fd.exe : fatal error LNK1120: 1 unresolved externals [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-qtrpwm\\cmTC_569fd.vcxproj]
-        Done Building Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-qtrpwm\\cmTC_569fd.vcxproj" (default targets) -- FAILED.
-        
-        Build FAILED.
-        
-        "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-qtrpwm\\cmTC_569fd.vcxproj" (default target) (1) ->
-        (Link target) -> 
-          CheckFunctionExists.obj : error LNK2019: unresolved external symbol gethostbyname_r referenced in function main [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-qtrpwm\\cmTC_569fd.vcxproj]
-          C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-qtrpwm\\Debug\\cmTC_569fd.exe : fatal error LNK1120: 1 unresolved externals [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-qtrpwm\\cmTC_569fd.vcxproj]
-        
-            0 Warning(s)
-            2 Error(s)
-        
-        Time Elapsed 00:00:00.52
-        
-      exitCode: 1
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckFunctionExists.cmake:86 (try_compile)"
-      - "exts/enet/CMakeLists.txt:14 (check_function_exists)"
-    checks:
-      - "Looking for gethostbyaddr_r"
-    directories:
-      source: "C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-vdk1fr"
-      binary: "C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-vdk1fr"
-    cmakeVariables:
-      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
-      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-    buildResult:
-      variable: "HAS_GETHOSTBYADDR_R"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-vdk1fr'
-        
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_80bc4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        MSBuild version 17.11.2+c078802d4 for .NET Framework
-        Build started 2025-02-19 12:30:45.
-        
-        Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-vdk1fr\\cmTC_80bc4.vcxproj" on node 1 (default targets).
-        PrepareForBuild:
-          Creating directory "cmTC_80bc4.dir\\Debug\\".
-          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-vdk1fr\\Debug\\".
-          Creating directory "cmTC_80bc4.dir\\Debug\\cmTC_80bc4.tlog\\".
-        InitializeBuildStatus:
-          Creating "cmTC_80bc4.dir\\Debug\\cmTC_80bc4.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_80bc4.dir\\Debug\\cmTC_80bc4.tlog\\unsuccessfulbuild".
-        ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gethostbyaddr_r /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_80bc4.dir\\Debug\\\\" /Fd"cmTC_80bc4.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-vdk1fr\\CheckFunctionExists.c"
-          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
-          Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gethostbyaddr_r /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_80bc4.dir\\Debug\\\\" /Fd"cmTC_80bc4.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-vdk1fr\\CheckFunctionExists.c"
-          CheckFunctionExists.c
-        Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-vdk1fr\\Debug\\cmTC_80bc4.exe" /INCREMENTAL /ILK:"cmTC_80bc4.dir\\Debug\\cmTC_80bc4.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-vdk1fr/Debug/cmTC_80bc4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-vdk1fr/Debug/cmTC_80bc4.lib" /MACHINE:X64  /machine:x64 cmTC_80bc4.dir\\Debug\\CheckFunctionExists.obj
-        CheckFunctionExists.obj : error LNK2019: unresolved external symbol gethostbyaddr_r referenced in function main [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-vdk1fr\\cmTC_80bc4.vcxproj]
-        C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-vdk1fr\\Debug\\cmTC_80bc4.exe : fatal error LNK1120: 1 unresolved externals [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-vdk1fr\\cmTC_80bc4.vcxproj]
-        Done Building Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-vdk1fr\\cmTC_80bc4.vcxproj" (default targets) -- FAILED.
-        
-        Build FAILED.
-        
-        "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-vdk1fr\\cmTC_80bc4.vcxproj" (default target) (1) ->
-        (Link target) -> 
-          CheckFunctionExists.obj : error LNK2019: unresolved external symbol gethostbyaddr_r referenced in function main [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-vdk1fr\\cmTC_80bc4.vcxproj]
-          C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-vdk1fr\\Debug\\cmTC_80bc4.exe : fatal error LNK1120: 1 unresolved externals [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-vdk1fr\\cmTC_80bc4.vcxproj]
-        
-            0 Warning(s)
-            2 Error(s)
-        
-        Time Elapsed 00:00:00.52
-        
-      exitCode: 1
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckFunctionExists.cmake:86 (try_compile)"
       - "exts/enet/CMakeLists.txt:15 (check_function_exists)"
     checks:
       - "Looking for inet_pton"
     directories:
-      source: "C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-44p3f7"
-      binary: "C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-44p3f7"
+      source: "C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-bcku2r"
+      binary: "C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-bcku2r"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -647,39 +647,39 @@ events:
       variable: "HAS_INET_PTON"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-44p3f7'
+        Change Dir: 'C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-bcku2r'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5b16c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_95fb2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.11.2+c078802d4 for .NET Framework
-        Build started 2025-02-19 12:30:46.
+        Build started 2025-03-10 14:26:43.
         
-        Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-44p3f7\\cmTC_5b16c.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-bcku2r\\cmTC_95fb2.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_5b16c.dir\\Debug\\".
+          Creating directory "cmTC_95fb2.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-44p3f7\\Debug\\".
-          Creating directory "cmTC_5b16c.dir\\Debug\\cmTC_5b16c.tlog\\".
+          Creating directory "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-bcku2r\\Debug\\".
+          Creating directory "cmTC_95fb2.dir\\Debug\\cmTC_95fb2.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_5b16c.dir\\Debug\\cmTC_5b16c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_5b16c.dir\\Debug\\cmTC_5b16c.tlog\\unsuccessfulbuild".
+          Creating "cmTC_95fb2.dir\\Debug\\cmTC_95fb2.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_95fb2.dir\\Debug\\cmTC_95fb2.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=inet_pton /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5b16c.dir\\Debug\\\\" /Fd"cmTC_5b16c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-44p3f7\\CheckFunctionExists.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=inet_pton /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_95fb2.dir\\Debug\\\\" /Fd"cmTC_95fb2.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-bcku2r\\CheckFunctionExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=inet_pton /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5b16c.dir\\Debug\\\\" /Fd"cmTC_5b16c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-44p3f7\\CheckFunctionExists.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=inet_pton /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_95fb2.dir\\Debug\\\\" /Fd"cmTC_95fb2.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-bcku2r\\CheckFunctionExists.c"
           CheckFunctionExists.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-44p3f7\\Debug\\cmTC_5b16c.exe" /INCREMENTAL /ILK:"cmTC_5b16c.dir\\Debug\\cmTC_5b16c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-44p3f7/Debug/cmTC_5b16c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-44p3f7/Debug/cmTC_5b16c.lib" /MACHINE:X64  /machine:x64 cmTC_5b16c.dir\\Debug\\CheckFunctionExists.obj
-        CheckFunctionExists.obj : error LNK2019: unresolved external symbol inet_pton referenced in function main [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-44p3f7\\cmTC_5b16c.vcxproj]
-        C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-44p3f7\\Debug\\cmTC_5b16c.exe : fatal error LNK1120: 1 unresolved externals [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-44p3f7\\cmTC_5b16c.vcxproj]
-        Done Building Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-44p3f7\\cmTC_5b16c.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-bcku2r\\Debug\\cmTC_95fb2.exe" /INCREMENTAL /ILK:"cmTC_95fb2.dir\\Debug\\cmTC_95fb2.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-bcku2r/Debug/cmTC_95fb2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-bcku2r/Debug/cmTC_95fb2.lib" /MACHINE:X64  /machine:x64 cmTC_95fb2.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: unresolved external symbol inet_pton referenced in function main [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-bcku2r\\cmTC_95fb2.vcxproj]
+        C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-bcku2r\\Debug\\cmTC_95fb2.exe : fatal error LNK1120: 1 unresolved externals [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-bcku2r\\cmTC_95fb2.vcxproj]
+        Done Building Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-bcku2r\\cmTC_95fb2.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-44p3f7\\cmTC_5b16c.vcxproj" (default target) (1) ->
+        "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-bcku2r\\cmTC_95fb2.vcxproj" (default target) (1) ->
         (Link target) -> 
-          CheckFunctionExists.obj : error LNK2019: unresolved external symbol inet_pton referenced in function main [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-44p3f7\\cmTC_5b16c.vcxproj]
-          C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-44p3f7\\Debug\\cmTC_5b16c.exe : fatal error LNK1120: 1 unresolved externals [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-44p3f7\\cmTC_5b16c.vcxproj]
+          CheckFunctionExists.obj : error LNK2019: unresolved external symbol inet_pton referenced in function main [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-bcku2r\\cmTC_95fb2.vcxproj]
+          C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-bcku2r\\Debug\\cmTC_95fb2.exe : fatal error LNK1120: 1 unresolved externals [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-bcku2r\\cmTC_95fb2.vcxproj]
         
             0 Warning(s)
             2 Error(s)
@@ -695,8 +695,8 @@ events:
     checks:
       - "Looking for inet_ntop"
     directories:
-      source: "C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-2d7dte"
-      binary: "C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-2d7dte"
+      source: "C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-0e4dyr"
+      binary: "C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-0e4dyr"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -705,44 +705,44 @@ events:
       variable: "HAS_INET_NTOP"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-2d7dte'
+        Change Dir: 'C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-0e4dyr'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ede36.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ec17e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.11.2+c078802d4 for .NET Framework
-        Build started 2025-02-19 12:30:46.
+        Build started 2025-03-10 14:26:44.
         
-        Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-2d7dte\\cmTC_ede36.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-0e4dyr\\cmTC_ec17e.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_ede36.dir\\Debug\\".
+          Creating directory "cmTC_ec17e.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-2d7dte\\Debug\\".
-          Creating directory "cmTC_ede36.dir\\Debug\\cmTC_ede36.tlog\\".
+          Creating directory "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-0e4dyr\\Debug\\".
+          Creating directory "cmTC_ec17e.dir\\Debug\\cmTC_ec17e.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_ede36.dir\\Debug\\cmTC_ede36.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_ede36.dir\\Debug\\cmTC_ede36.tlog\\unsuccessfulbuild".
+          Creating "cmTC_ec17e.dir\\Debug\\cmTC_ec17e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_ec17e.dir\\Debug\\cmTC_ec17e.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=inet_ntop /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ede36.dir\\Debug\\\\" /Fd"cmTC_ede36.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-2d7dte\\CheckFunctionExists.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=inet_ntop /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ec17e.dir\\Debug\\\\" /Fd"cmTC_ec17e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-0e4dyr\\CheckFunctionExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=inet_ntop /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ede36.dir\\Debug\\\\" /Fd"cmTC_ede36.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-2d7dte\\CheckFunctionExists.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=inet_ntop /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ec17e.dir\\Debug\\\\" /Fd"cmTC_ec17e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-0e4dyr\\CheckFunctionExists.c"
           CheckFunctionExists.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-2d7dte\\Debug\\cmTC_ede36.exe" /INCREMENTAL /ILK:"cmTC_ede36.dir\\Debug\\cmTC_ede36.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-2d7dte/Debug/cmTC_ede36.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-2d7dte/Debug/cmTC_ede36.lib" /MACHINE:X64  /machine:x64 cmTC_ede36.dir\\Debug\\CheckFunctionExists.obj
-        CheckFunctionExists.obj : error LNK2019: unresolved external symbol inet_ntop referenced in function main [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-2d7dte\\cmTC_ede36.vcxproj]
-        C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-2d7dte\\Debug\\cmTC_ede36.exe : fatal error LNK1120: 1 unresolved externals [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-2d7dte\\cmTC_ede36.vcxproj]
-        Done Building Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-2d7dte\\cmTC_ede36.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-0e4dyr\\Debug\\cmTC_ec17e.exe" /INCREMENTAL /ILK:"cmTC_ec17e.dir\\Debug\\cmTC_ec17e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-0e4dyr/Debug/cmTC_ec17e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-0e4dyr/Debug/cmTC_ec17e.lib" /MACHINE:X64  /machine:x64 cmTC_ec17e.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: unresolved external symbol inet_ntop referenced in function main [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-0e4dyr\\cmTC_ec17e.vcxproj]
+        C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-0e4dyr\\Debug\\cmTC_ec17e.exe : fatal error LNK1120: 1 unresolved externals [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-0e4dyr\\cmTC_ec17e.vcxproj]
+        Done Building Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-0e4dyr\\cmTC_ec17e.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-2d7dte\\cmTC_ede36.vcxproj" (default target) (1) ->
+        "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-0e4dyr\\cmTC_ec17e.vcxproj" (default target) (1) ->
         (Link target) -> 
-          CheckFunctionExists.obj : error LNK2019: unresolved external symbol inet_ntop referenced in function main [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-2d7dte\\cmTC_ede36.vcxproj]
-          C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-2d7dte\\Debug\\cmTC_ede36.exe : fatal error LNK1120: 1 unresolved externals [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-2d7dte\\cmTC_ede36.vcxproj]
+          CheckFunctionExists.obj : error LNK2019: unresolved external symbol inet_ntop referenced in function main [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-0e4dyr\\cmTC_ec17e.vcxproj]
+          C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-0e4dyr\\Debug\\cmTC_ec17e.exe : fatal error LNK1120: 1 unresolved externals [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-0e4dyr\\cmTC_ec17e.vcxproj]
         
             0 Warning(s)
             2 Error(s)
         
-        Time Elapsed 00:00:00.49
+        Time Elapsed 00:00:00.51
         
       exitCode: 1
   -
@@ -755,8 +755,8 @@ events:
     checks:
       - "Performing Test HAS_MSGHDR_FLAGS"
     directories:
-      source: "C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-rn0inx"
-      binary: "C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-rn0inx"
+      source: "C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-37zwji"
+      binary: "C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-37zwji"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -765,40 +765,40 @@ events:
       variable: "HAS_MSGHDR_FLAGS"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-rn0inx'
+        Change Dir: 'C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-37zwji'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a10fa.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5d0ba.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.11.2+c078802d4 for .NET Framework
-        Build started 2025-02-19 12:30:47.
+        Build started 2025-03-10 14:26:45.
         
-        Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-rn0inx\\cmTC_a10fa.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-37zwji\\cmTC_5d0ba.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_a10fa.dir\\Debug\\".
+          Creating directory "cmTC_5d0ba.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-rn0inx\\Debug\\".
-          Creating directory "cmTC_a10fa.dir\\Debug\\cmTC_a10fa.tlog\\".
+          Creating directory "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-37zwji\\Debug\\".
+          Creating directory "cmTC_5d0ba.dir\\Debug\\cmTC_5d0ba.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_a10fa.dir\\Debug\\cmTC_a10fa.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_a10fa.dir\\Debug\\cmTC_a10fa.tlog\\unsuccessfulbuild".
+          Creating "cmTC_5d0ba.dir\\Debug\\cmTC_5d0ba.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_5d0ba.dir\\Debug\\cmTC_5d0ba.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSGHDR_FLAGS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a10fa.dir\\Debug\\\\" /Fd"cmTC_a10fa.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-rn0inx\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSGHDR_FLAGS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5d0ba.dir\\Debug\\\\" /Fd"cmTC_5d0ba.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-37zwji\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSGHDR_FLAGS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a10fa.dir\\Debug\\\\" /Fd"cmTC_a10fa.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-rn0inx\\src.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSGHDR_FLAGS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5d0ba.dir\\Debug\\\\" /Fd"cmTC_5d0ba.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-37zwji\\src.c"
           src.c
-        C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-rn0inx\\src.c(3,10): error C1083: Cannot open include file: 'sys/socket.h': No such file or directory [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-rn0inx\\cmTC_a10fa.vcxproj]
-        Done Building Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-rn0inx\\cmTC_a10fa.vcxproj" (default targets) -- FAILED.
+        C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-37zwji\\src.c(3,10): error C1083: Cannot open include file: 'sys/socket.h': No such file or directory [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-37zwji\\cmTC_5d0ba.vcxproj]
+        Done Building Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-37zwji\\cmTC_5d0ba.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-rn0inx\\cmTC_a10fa.vcxproj" (default target) (1) ->
+        "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-37zwji\\cmTC_5d0ba.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-rn0inx\\src.c(3,10): error C1083: Cannot open include file: 'sys/socket.h': No such file or directory [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-rn0inx\\cmTC_a10fa.vcxproj]
+          C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-37zwji\\src.c(3,10): error C1083: Cannot open include file: 'sys/socket.h': No such file or directory [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-37zwji\\cmTC_5d0ba.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.31
+        Time Elapsed 00:00:00.32
         
       exitCode: 1
   -
@@ -810,8 +810,8 @@ events:
     checks:
       - "Check size of socklen_t"
     directories:
-      source: "C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-bn7j2z"
-      binary: "C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-bn7j2z"
+      source: "C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-n52y1m"
+      binary: "C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-n52y1m"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -820,35 +820,35 @@ events:
       variable: "HAVE_HAS_SOCKLEN_T"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-bn7j2z'
+        Change Dir: 'C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-n52y1m'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_dfd94.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7132b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.11.2+c078802d4 for .NET Framework
-        Build started 2025-02-19 12:30:48.
+        Build started 2025-03-10 14:26:45.
         
-        Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-bn7j2z\\cmTC_dfd94.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-n52y1m\\cmTC_7132b.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_dfd94.dir\\Debug\\".
+          Creating directory "cmTC_7132b.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-bn7j2z\\Debug\\".
-          Creating directory "cmTC_dfd94.dir\\Debug\\cmTC_dfd94.tlog\\".
+          Creating directory "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-n52y1m\\Debug\\".
+          Creating directory "cmTC_7132b.dir\\Debug\\cmTC_7132b.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_dfd94.dir\\Debug\\cmTC_dfd94.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_dfd94.dir\\Debug\\cmTC_dfd94.tlog\\unsuccessfulbuild".
+          Creating "cmTC_7132b.dir\\Debug\\cmTC_7132b.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_7132b.dir\\Debug\\cmTC_7132b.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dfd94.dir\\Debug\\\\" /Fd"cmTC_dfd94.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-bn7j2z\\HAS_SOCKLEN_T.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7132b.dir\\Debug\\\\" /Fd"cmTC_7132b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-n52y1m\\HAS_SOCKLEN_T.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dfd94.dir\\Debug\\\\" /Fd"cmTC_dfd94.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-bn7j2z\\HAS_SOCKLEN_T.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7132b.dir\\Debug\\\\" /Fd"cmTC_7132b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-n52y1m\\HAS_SOCKLEN_T.c"
           HAS_SOCKLEN_T.c
-        C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-bn7j2z\\HAS_SOCKLEN_T.c(2,10): error C1083: Cannot open include file: 'sys/socket.h': No such file or directory [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-bn7j2z\\cmTC_dfd94.vcxproj]
-        Done Building Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-bn7j2z\\cmTC_dfd94.vcxproj" (default targets) -- FAILED.
+        C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-n52y1m\\HAS_SOCKLEN_T.c(2,10): error C1083: Cannot open include file: 'sys/socket.h': No such file or directory [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-n52y1m\\cmTC_7132b.vcxproj]
+        Done Building Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-n52y1m\\cmTC_7132b.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-bn7j2z\\cmTC_dfd94.vcxproj" (default target) (1) ->
+        "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-n52y1m\\cmTC_7132b.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-bn7j2z\\HAS_SOCKLEN_T.c(2,10): error C1083: Cannot open include file: 'sys/socket.h': No such file or directory [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-bn7j2z\\cmTC_dfd94.vcxproj]
+          C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-n52y1m\\HAS_SOCKLEN_T.c(2,10): error C1083: Cannot open include file: 'sys/socket.h': No such file or directory [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-n52y1m\\cmTC_7132b.vcxproj]
         
             0 Warning(s)
             1 Error(s)
@@ -867,51 +867,51 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-q3mmit"
-      binary: "C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-q3mmit"
+      source: "C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-c6358n"
+      binary: "C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-c6358n"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/exts/glfw/CMake/modules"
+      CMAKE_MODULE_PATH: "C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/exts/glfw/CMake/modules"
     buildResult:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-q3mmit'
+        Change Dir: 'C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-c6358n'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f7fbc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_02ce7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.11.2+c078802d4 for .NET Framework
-        Build started 2025-02-19 12:30:48.
+        Build started 2025-03-10 14:26:46.
         
-        Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-q3mmit\\cmTC_f7fbc.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-c6358n\\cmTC_02ce7.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_f7fbc.dir\\Debug\\".
+          Creating directory "cmTC_02ce7.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-q3mmit\\Debug\\".
-          Creating directory "cmTC_f7fbc.dir\\Debug\\cmTC_f7fbc.tlog\\".
+          Creating directory "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-c6358n\\Debug\\".
+          Creating directory "cmTC_02ce7.dir\\Debug\\cmTC_02ce7.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_f7fbc.dir\\Debug\\cmTC_f7fbc.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_f7fbc.dir\\Debug\\cmTC_f7fbc.tlog\\unsuccessfulbuild".
+          Creating "cmTC_02ce7.dir\\Debug\\cmTC_02ce7.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_02ce7.dir\\Debug\\cmTC_02ce7.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f7fbc.dir\\Debug\\\\" /Fd"cmTC_f7fbc.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-q3mmit\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_02ce7.dir\\Debug\\\\" /Fd"cmTC_02ce7.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-c6358n\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f7fbc.dir\\Debug\\\\" /Fd"cmTC_f7fbc.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-q3mmit\\src.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_02ce7.dir\\Debug\\\\" /Fd"cmTC_02ce7.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-c6358n\\src.c"
           src.c
-        C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-q3mmit\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-q3mmit\\cmTC_f7fbc.vcxproj]
-        Done Building Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-q3mmit\\cmTC_f7fbc.vcxproj" (default targets) -- FAILED.
+        C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-c6358n\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-c6358n\\cmTC_02ce7.vcxproj]
+        Done Building Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-c6358n\\cmTC_02ce7.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-q3mmit\\cmTC_f7fbc.vcxproj" (default target) (1) ->
+        "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-c6358n\\cmTC_02ce7.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-q3mmit\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-q3mmit\\cmTC_f7fbc.vcxproj]
+          C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-c6358n\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-c6358n\\cmTC_02ce7.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.32
+        Time Elapsed 00:00:00.31
         
       exitCode: 1
   -
@@ -924,51 +924,51 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-win5ib"
-      binary: "C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-win5ib"
+      source: "C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-dr9oy5"
+      binary: "C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-dr9oy5"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
-      CMAKE_MODULE_PATH: "C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/exts/glfw/CMake/modules"
+      CMAKE_MODULE_PATH: "C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/exts/glfw/CMake/modules"
     buildResult:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-win5ib'
+        Change Dir: 'C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-dr9oy5'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_628e2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f0f40.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.11.2+c078802d4 for .NET Framework
-        Build started 2025-02-19 12:30:49.
+        Build started 2025-03-10 14:26:46.
         
-        Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-win5ib\\cmTC_628e2.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-dr9oy5\\cmTC_f0f40.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_628e2.dir\\Debug\\".
+          Creating directory "cmTC_f0f40.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-win5ib\\Debug\\".
-          Creating directory "cmTC_628e2.dir\\Debug\\cmTC_628e2.tlog\\".
+          Creating directory "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-dr9oy5\\Debug\\".
+          Creating directory "cmTC_f0f40.dir\\Debug\\cmTC_f0f40.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_628e2.dir\\Debug\\cmTC_628e2.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_628e2.dir\\Debug\\cmTC_628e2.tlog\\unsuccessfulbuild".
+          Creating "cmTC_f0f40.dir\\Debug\\cmTC_f0f40.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_f0f40.dir\\Debug\\cmTC_f0f40.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_628e2.dir\\Debug\\\\" /Fd"cmTC_628e2.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-win5ib\\CheckFunctionExists.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f0f40.dir\\Debug\\\\" /Fd"cmTC_f0f40.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-dr9oy5\\CheckFunctionExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_628e2.dir\\Debug\\\\" /Fd"cmTC_628e2.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-win5ib\\CheckFunctionExists.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f0f40.dir\\Debug\\\\" /Fd"cmTC_f0f40.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-dr9oy5\\CheckFunctionExists.c"
           CheckFunctionExists.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-win5ib\\Debug\\cmTC_628e2.exe" /INCREMENTAL /ILK:"cmTC_628e2.dir\\Debug\\cmTC_628e2.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-win5ib/Debug/cmTC_628e2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-win5ib/Debug/cmTC_628e2.lib" /MACHINE:X64  /machine:x64 cmTC_628e2.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-win5ib\\cmTC_628e2.vcxproj]
-        Done Building Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-win5ib\\cmTC_628e2.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-dr9oy5\\Debug\\cmTC_f0f40.exe" /INCREMENTAL /ILK:"cmTC_f0f40.dir\\Debug\\cmTC_f0f40.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-dr9oy5/Debug/cmTC_f0f40.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-dr9oy5/Debug/cmTC_f0f40.lib" /MACHINE:X64  /machine:x64 cmTC_f0f40.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-dr9oy5\\cmTC_f0f40.vcxproj]
+        Done Building Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-dr9oy5\\cmTC_f0f40.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-win5ib\\cmTC_628e2.vcxproj" (default target) (1) ->
+        "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-dr9oy5\\cmTC_f0f40.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-win5ib\\cmTC_628e2.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-dr9oy5\\cmTC_f0f40.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.48
+        Time Elapsed 00:00:00.43
         
       exitCode: 1
   -
@@ -981,51 +981,51 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-md07er"
-      binary: "C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-md07er"
+      source: "C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-l3lqw2"
+      binary: "C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-l3lqw2"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
-      CMAKE_MODULE_PATH: "C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/exts/glfw/CMake/modules"
+      CMAKE_MODULE_PATH: "C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/exts/glfw/CMake/modules"
     buildResult:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-md07er'
+        Change Dir: 'C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-l3lqw2'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_fabf8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3dbb5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.11.2+c078802d4 for .NET Framework
-        Build started 2025-02-19 12:30:49.
+        Build started 2025-03-10 14:26:47.
         
-        Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-md07er\\cmTC_fabf8.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-l3lqw2\\cmTC_3dbb5.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_fabf8.dir\\Debug\\".
+          Creating directory "cmTC_3dbb5.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-md07er\\Debug\\".
-          Creating directory "cmTC_fabf8.dir\\Debug\\cmTC_fabf8.tlog\\".
+          Creating directory "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-l3lqw2\\Debug\\".
+          Creating directory "cmTC_3dbb5.dir\\Debug\\cmTC_3dbb5.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_fabf8.dir\\Debug\\cmTC_fabf8.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_fabf8.dir\\Debug\\cmTC_fabf8.tlog\\unsuccessfulbuild".
+          Creating "cmTC_3dbb5.dir\\Debug\\cmTC_3dbb5.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_3dbb5.dir\\Debug\\cmTC_3dbb5.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fabf8.dir\\Debug\\\\" /Fd"cmTC_fabf8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-md07er\\CheckFunctionExists.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3dbb5.dir\\Debug\\\\" /Fd"cmTC_3dbb5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-l3lqw2\\CheckFunctionExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fabf8.dir\\Debug\\\\" /Fd"cmTC_fabf8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-md07er\\CheckFunctionExists.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3dbb5.dir\\Debug\\\\" /Fd"cmTC_3dbb5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-l3lqw2\\CheckFunctionExists.c"
           CheckFunctionExists.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-md07er\\Debug\\cmTC_fabf8.exe" /INCREMENTAL /ILK:"cmTC_fabf8.dir\\Debug\\cmTC_fabf8.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-md07er/Debug/cmTC_fabf8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-md07er/Debug/cmTC_fabf8.lib" /MACHINE:X64  /machine:x64 cmTC_fabf8.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-md07er\\cmTC_fabf8.vcxproj]
-        Done Building Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-md07er\\cmTC_fabf8.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-l3lqw2\\Debug\\cmTC_3dbb5.exe" /INCREMENTAL /ILK:"cmTC_3dbb5.dir\\Debug\\cmTC_3dbb5.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-l3lqw2/Debug/cmTC_3dbb5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/CMakeFiles/CMakeScratch/TryCompile-l3lqw2/Debug/cmTC_3dbb5.lib" /MACHINE:X64  /machine:x64 cmTC_3dbb5.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-l3lqw2\\cmTC_3dbb5.vcxproj]
+        Done Building Project "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-l3lqw2\\cmTC_3dbb5.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-md07er\\cmTC_fabf8.vcxproj" (default target) (1) ->
+        "C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-l3lqw2\\cmTC_3dbb5.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011e-game-engine-Bjornmalmgren\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-md07er\\cmTC_fabf8.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\bjmall-3-local\\Documents\\GitHub\\s0011eAssigment5\\engine-lab-env-main\\CMakeFiles\\CMakeScratch\\TryCompile-l3lqw2\\cmTC_3dbb5.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.42
+        Time Elapsed 00:00:00.43
         
       exitCode: 1
 ...

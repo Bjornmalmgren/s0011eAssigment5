@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main
+# Install script for directory: C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,9 +34,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/exts/cmake_install.cmake")
-  include("C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/engine/cmake_install.cmake")
-  include("C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/projects/cmake_install.cmake")
+  include("C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/exts/cmake_install.cmake")
+  include("C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/engine/cmake_install.cmake")
+  include("C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/projects/cmake_install.cmake")
 
 endif()
 
@@ -55,6 +55,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

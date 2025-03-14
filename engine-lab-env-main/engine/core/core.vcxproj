@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{AB0E9AFD-E2A5-3903-9838-AB285D76BD5D}</ProjectGuid>
+    <ProjectGuid>{5744C158-904F-332D-B719-C5C7C3D8DC00}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,40 +59,42 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\core\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">core.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">core</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\core\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">core.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">core</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\core\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">core.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">core</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\core\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">core.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">core</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\enet\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\flatbuffers\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\soloud\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\glew\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\glfw\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\imgui;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\enet\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\flatbuffers\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\soloud\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\glew\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\glfw\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\imgui;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <MinimalRebuild></MinimalRebuild>
+      <MinimalRebuild>
+      </MinimalRebuild>
       <Optimization>Disabled</Optimization>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>config.h</PrecompiledHeaderFile>
       <PrecompiledHeaderOutputFile>$(Configuration)/core.pch</PrecompiledHeaderOutputFile>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <SupportJustMyCode></SupportJustMyCode>
+      <SupportJustMyCode>
+      </SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;GLEW_STATIC;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
@@ -101,10 +103,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;GLEW_STATIC;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\enet\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\flatbuffers\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\soloud\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\glew\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\glfw\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\imgui;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\enet\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\flatbuffers\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\soloud\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\glew\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\glfw\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\imgui;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\enet\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\flatbuffers\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\soloud\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\glew\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\glfw\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\imgui;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\enet\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\flatbuffers\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\soloud\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\glew\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\glfw\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\imgui;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -117,20 +119,22 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\enet\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\flatbuffers\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\soloud\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\glew\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\glfw\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\imgui;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\enet\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\flatbuffers\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\soloud\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\glew\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\glfw\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\imgui;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <MinimalRebuild></MinimalRebuild>
+      <MinimalRebuild>
+      </MinimalRebuild>
       <Optimization>MaxSpeed</Optimization>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>config.h</PrecompiledHeaderFile>
       <PrecompiledHeaderOutputFile>$(Configuration)/core.pch</PrecompiledHeaderOutputFile>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <SupportJustMyCode></SupportJustMyCode>
+      <SupportJustMyCode>
+      </SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLEW_STATIC;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
@@ -141,10 +145,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLEW_STATIC;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\enet\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\flatbuffers\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\soloud\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\glew\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\glfw\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\imgui;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\enet\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\flatbuffers\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\soloud\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\glew\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\glfw\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\imgui;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\enet\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\flatbuffers\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\soloud\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\glew\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\glfw\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\imgui;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\enet\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\flatbuffers\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\soloud\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\glew\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\glfw\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\imgui;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -157,20 +161,22 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\enet\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\flatbuffers\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\soloud\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\glew\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\glfw\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\imgui;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\enet\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\flatbuffers\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\soloud\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\glew\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\glfw\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\imgui;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <MinimalRebuild></MinimalRebuild>
+      <MinimalRebuild>
+      </MinimalRebuild>
       <Optimization>MinSpace</Optimization>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>config.h</PrecompiledHeaderFile>
       <PrecompiledHeaderOutputFile>$(Configuration)/core.pch</PrecompiledHeaderOutputFile>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <SupportJustMyCode></SupportJustMyCode>
+      <SupportJustMyCode>
+      </SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLEW_STATIC;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
@@ -181,10 +187,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLEW_STATIC;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\enet\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\flatbuffers\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\soloud\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\glew\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\glfw\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\imgui;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\enet\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\flatbuffers\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\soloud\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\glew\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\glfw\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\imgui;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\enet\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\flatbuffers\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\soloud\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\glew\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\glfw\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\imgui;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\enet\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\flatbuffers\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\soloud\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\glew\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\glfw\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\imgui;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -197,21 +203,23 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\enet\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\flatbuffers\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\soloud\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\glew\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\glfw\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\imgui;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\enet\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\flatbuffers\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\soloud\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\glew\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\glfw\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\imgui;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <MinimalRebuild></MinimalRebuild>
+      <MinimalRebuild>
+      </MinimalRebuild>
       <Optimization>MaxSpeed</Optimization>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>config.h</PrecompiledHeaderFile>
       <PrecompiledHeaderOutputFile>$(Configuration)/core.pch</PrecompiledHeaderOutputFile>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <SupportJustMyCode></SupportJustMyCode>
+      <SupportJustMyCode>
+      </SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLEW_STATIC;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
@@ -220,10 +228,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLEW_STATIC;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\enet\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\flatbuffers\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\soloud\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\glew\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\glfw\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\imgui;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\enet\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\flatbuffers\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\soloud\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\glew\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\glfw\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\imgui;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\enet\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\flatbuffers\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\soloud\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\glew\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\glfw\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\imgui;C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\enet\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\flatbuffers\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\soloud\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\glew\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\glfw\include;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\imgui;C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -235,11 +243,11 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\core\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/engine/core/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/engine/core/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main -BC:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main --check-stamp-file C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/engine/core/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main -BC:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main --check-stamp-file C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/engine/core/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -248,11 +256,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\core\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/engine/core/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/engine/core/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main -BC:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main --check-stamp-file C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/engine/core/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main -BC:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main --check-stamp-file C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/engine/core/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -261,11 +269,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\core\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/engine/core/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/engine/core/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main -BC:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main --check-stamp-file C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/engine/core/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main -BC:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main --check-stamp-file C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/engine/core/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -274,11 +282,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\core\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/engine/core/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/engine/core/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main -BC:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main --check-stamp-file C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/engine/core/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main -BC:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main --check-stamp-file C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/engine/core/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -287,36 +295,40 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\core\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\core\Allocator.cpp" />
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\core\Allocator.h" />
-    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\core\ComponentBase.cpp" />
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\core\ComponentBase.h" />
-    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\core\Entity.cpp" />
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\core\Entity.h" />
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\core\app.h" />
-    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\core\app.cc" />
-    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\core\debug.cc" />
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\core\debug.h" />
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\core\random.h" />
-    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\core\random.cc" />
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\core\cvar.h" />
-    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\core\cvar.cc" />
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\core\idpool.h" />
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\core\transform.h" />
-    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\core\transform.cpp" />
-    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\core\InputComponent.cpp" />
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\core\InputComponent.h" />
-    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\core\World.cpp" />
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\core\World.h" />
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\core\StarShipManager.h" />
-    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\core\StarShipManager.cpp" />
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\config.h" />
-    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\config.cc">
+    <ClCompile Include="AiManager.cpp" />
+    <ClCompile Include="AiMovement.cpp" />
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\Allocator.cpp" />
+    <ClInclude Include="AiManager.h" />
+    <ClInclude Include="AiMovement.h" />
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\Allocator.h" />
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\ComponentBase.cpp" />
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\ComponentBase.h" />
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\Entity.cpp" />
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\Entity.h" />
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\app.h" />
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\app.cc" />
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\debug.cc" />
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\debug.h" />
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\random.h" />
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\random.cc" />
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\cvar.h" />
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\cvar.cc" />
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\idpool.h" />
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\transform.h" />
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\transform.cpp" />
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\InputComponent.cpp" />
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\InputComponent.h" />
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\World.cpp" />
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\World.h" />
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\StarShipManager.h" />
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\StarShipManager.cpp" />
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\config.h" />
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\config.cc">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">config.h</PrecompiledHeaderFile>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
@@ -328,8 +340,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\render\render.vcxproj">
-      <Project>{93D868E2-D9E7-33B6-8A27-9D5FC9488927}</Project>
+    <ProjectReference Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\render\render.vcxproj">
+      <Project>{4FA0B0AF-39E3-3C74-B34B-812FA7378E6F}</Project>
       <Name>render</Name>
     </ProjectReference>
   </ItemGroup>

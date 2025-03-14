@@ -21,6 +21,8 @@
 #include <chrono>
 #include "spaceship.h"
 #include "core/World.h"
+#include "render/NodeManager.h"
+#include "core/AiManager.h"
 using namespace Display;
 using namespace Render;
 using namespace Component;
@@ -132,7 +134,7 @@ SpaceGameApp::Run()
         size_t resourceIndex = (size_t)(Core::FastRandom() % 6);
 
         render->modelId = models[resourceIndex];
-        float span = 20.0f;
+        float span = 60.0f;
         glm::vec3 translation = glm::vec3(
             Core::RandomFloatNTP() * span,
             Core::RandomFloatNTP() * span,
@@ -156,7 +158,7 @@ SpaceGameApp::Run()
     }
 
     // Setup asteroids far
-    for (int i = 0; i < 0; i++)
+    for (int i = 0; i < 50; i++)
     {
         //Entity* as = new Entity();
         world.CreateEntity();
@@ -181,7 +183,7 @@ SpaceGameApp::Run()
         size_t resourceIndex = (size_t)(Core::FastRandom() % 6);
         render->modelId = models[resourceIndex];
 
-        float span = 80.0f;
+        float span = 130.0f;
         glm::vec3 translation = glm::vec3(
             Core::RandomFloatNTP() * span,
             Core::RandomFloatNTP() * span,
@@ -235,16 +237,48 @@ SpaceGameApp::Run()
         lights[i] = Render::LightServer::CreatePointLight(translation, color, Core::RandomFloat() * 4.0f, 1.0f + (15 + Core::RandomFloat() * 10.0f));
     }
 
+    nodeMGR->createNode(glm::vec3(0, 0, 0)); 
+    nodeMGR->createNode(glm::vec3(28, 2, 22));
+    nodeMGR->createNode(glm::vec3(-7, 21, 41));
 
+    nodeMGR->createNode(glm::vec3(-10, 38, 22));
+    nodeMGR->createNode(glm::vec3(-13, -69, 28));
+    nodeMGR->createNode(glm::vec3(-3, 32, -44));
+
+    nodeMGR->createNode(glm::vec3(8, -13, -33));
+    nodeMGR->createNode(glm::vec3(-3, -35, -34));
+    nodeMGR->createNode(glm::vec3(47, -43, 10));
+
+    nodeMGR->createNode(glm::vec3(43, -60, -12));
+    nodeMGR->createNode(glm::vec3(23, -56, -60));
+    nodeMGR->createNode(glm::vec3(8, -38, -62));
+    nodeMGR->createNode(glm::vec3(48, -9, -41));
+
+    nodeMGR->nodes[0]->neighBours.push_back(nodeMGR->nodes[1]);
+    nodeMGR->nodes[1]->neighBours.push_back(nodeMGR->nodes[2]);
+    nodeMGR->nodes[2]->neighBours.push_back(nodeMGR->nodes[3]);
+
+    nodeMGR->nodes[3]->neighBours.push_back(nodeMGR->nodes[4]);
+    nodeMGR->nodes[4]->neighBours.push_back(nodeMGR->nodes[5]);
+    nodeMGR->nodes[5]->neighBours.push_back(nodeMGR->nodes[6]);
+
+    nodeMGR->nodes[6]->neighBours.push_back(nodeMGR->nodes[7]);
+    nodeMGR->nodes[7]->neighBours.push_back(nodeMGR->nodes[8]);
+    nodeMGR->nodes[8]->neighBours.push_back(nodeMGR->nodes[9]);
+
+    nodeMGR->nodes[9]->neighBours.push_back(nodeMGR->nodes[10]);
+    nodeMGR->nodes[10]->neighBours.push_back(nodeMGR->nodes[11]);
+    nodeMGR->nodes[11]->neighBours.push_back(nodeMGR->nodes[12]);
+    nodeMGR->nodes[12]->neighBours.push_back(nodeMGR->nodes[0]);
 
     world.CreateSpaceShip();
-
-
+    world.CreateAISpaceShip();
+    AIManager->AI1 = world.entitys.back();
 
     world.StartEntitys();
     std::clock_t c_start = std::clock();
     double dt = 0.01667f;
-
+    
     // game loop
     while (this->window->IsOpen())
 	{
@@ -265,11 +299,24 @@ SpaceGameApp::Run()
 
         // Draw some debug text
         Debug::DrawDebugText("FOOBAR", glm::vec3(0), {1,0,0,1});
-
-    
-
+        if (nodeMGR->draw == true) {
+            nodeMGR->DrawNodes(nodeMGR->draw);
+        }
+        if (nodeMGR->addNode == true) {
+            nodeMGR->addNode = false;
+            nodeMGR->createNode(((Transform*)world.player->FindComponent(TRANSFORM))->position);
+            nodeMGR->nodes.back()->neighBours.push_back(nodeMGR->nodes[nodeMGR->nodes.size()-2]);
+        }
+        
         world.UpdateEntitys(dt);
+        if (AIManager->AI1 != NULL) {
+            if (AIManager->AI1->Destroyed == true) {
+                AIManager->AI1 = NULL;
+            }
 
+
+        }
+        
         // Execute the entire rendering pipeline
         RenderDevice::Render(this->window, dt);
 
@@ -297,6 +344,7 @@ SpaceGameApp::Exit()
 //------------------------------------------------------------------------------
 /**
 */
+
 void
 SpaceGameApp::RenderUI()
 {
@@ -313,8 +361,28 @@ SpaceGameApp::RenderUI()
         if (ImGui::InputInt("LightSphereId", (int*)&lightSphereId))
             Core::CVarWriteInt(r_draw_light_sphere_id, lightSphereId);
         
+
         ImGui::End();
 
+        ImGui::Begin("Draw Nodes");
+        bool draw = nodeMGR->draw;
+        
+        if (ImGui::Button("Add node")) {
+            nodeMGR->addNode = true;
+        }
+        bool im = ImGui::Checkbox("Draw Nodes", &draw);
+        if (AIManager->AI1 != NULL) {
+            ImGui::InputFloat("PosX", &((Transform*)AIManager->AI1->FindComponent(TRANSFORM))->position.x);
+            ImGui::InputFloat("PosY", &((Transform*)AIManager->AI1->FindComponent(TRANSFORM))->position.y);
+            ImGui::InputFloat("PosZ", &((Transform*)AIManager->AI1->FindComponent(TRANSFORM))->position.z);
+            ImGui::InputFloat("Speed", &((AiMovement*)AIManager->AI1->FindComponent(AIMOVEMENT))->currentSpeed);
+            ImGui::InputInt("Slowing", &((AiMovement*)AIManager->AI1->FindComponent(AIMOVEMENT))->slowing);
+            ImGui::InputInt("Near a node", &((AiMovement*)AIManager->AI1->FindComponent(AIMOVEMENT))->nearNode);
+
+            
+        } 
+        nodeMGR->draw = draw;
+        ImGui::End();
         Debug::DispatchDebugTextDrawing();
 	}
 }

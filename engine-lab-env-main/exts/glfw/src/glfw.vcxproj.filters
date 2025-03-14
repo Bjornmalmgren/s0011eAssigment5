@@ -1,84 +1,84 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\glfw\src\context.c">
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\glfw\src\context.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\glfw\src\init.c">
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\glfw\src\init.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\glfw\src\input.c">
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\glfw\src\input.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\glfw\src\monitor.c">
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\glfw\src\monitor.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\glfw\src\vulkan.c">
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\glfw\src\vulkan.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\glfw\src\window.c">
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\glfw\src\window.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\glfw\src\win32_init.c">
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\glfw\src\win32_init.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\glfw\src\win32_joystick.c">
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\glfw\src\win32_joystick.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\glfw\src\win32_monitor.c">
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\glfw\src\win32_monitor.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\glfw\src\win32_time.c">
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\glfw\src\win32_time.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\glfw\src\win32_tls.c">
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\glfw\src\win32_tls.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\glfw\src\win32_window.c">
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\glfw\src\win32_window.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\glfw\src\wgl_context.c">
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\glfw\src\wgl_context.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\glfw\src\egl_context.c">
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\glfw\src\egl_context.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\glfw\src\internal.h">
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\glfw\src\internal.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\glfw\src\glfw_config.h">
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\glfw\src\glfw_config.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\glfw\include\GLFW\glfw3.h">
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\glfw\include\GLFW\glfw3.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\glfw\include\GLFW\glfw3native.h">
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\glfw\include\GLFW\glfw3native.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\glfw\src\win32_platform.h">
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\glfw\src\win32_platform.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\glfw\src\win32_joystick.h">
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\glfw\src\win32_joystick.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\glfw\src\wgl_context.h">
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\glfw\src\wgl_context.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\glfw\src\egl_context.h">
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\glfw\src\egl_context.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\exts\glfw\src\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\exts\glfw\src\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{90865326-816F-3E95-BAFE-A6A00787F93F}</UniqueIdentifier>
+      <UniqueIdentifier>{DE5985B8-9F68-3850-A2D9-BA6774B22A08}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{87732481-B5CC-3B0C-BD20-2C5E01ABAE18}</UniqueIdentifier>
+      <UniqueIdentifier>{B80F43B9-13DA-3E14-9F69-A95EB2F862D1}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

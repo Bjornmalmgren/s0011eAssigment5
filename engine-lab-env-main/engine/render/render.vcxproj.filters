@@ -1,168 +1,186 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\render\window.cc">
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\render\window.cc">
       <Filter>display</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\render\model.cc">
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\render\model.cc">
       <Filter>render</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\render\renderdevice.cc">
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\render\renderdevice.cc">
       <Filter>render</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\render\shaderresource.cc">
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\render\shaderresource.cc">
       <Filter>render</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\render\textureresource.cc">
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\render\textureresource.cc">
       <Filter>render</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\render\lightserver.cc">
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\render\lightserver.cc">
       <Filter>render</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\render\cameramanager.cc">
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\render\cameramanager.cc">
       <Filter>render</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\render\debugrender.cc">
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\render\debugrender.cc">
       <Filter>render</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\render\grid.cc">
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\render\grid.cc">
       <Filter>render</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\render\physics.cc">
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\render\physics.cc">
       <Filter>render</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\render\particlesystem.cc">
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\render\particlesystem.cc">
       <Filter>render</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\render\CameraComponent.cpp">
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\render\CameraComponent.cpp">
       <Filter>render</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\render\CollisionMesh.cpp">
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\render\CollisionMesh.cpp">
       <Filter>render</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\render\ContinuesMovement.cpp">
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\render\ContinuesMovement.cpp">
       <Filter>render</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\render\ParticleComponent.cpp">
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\render\ParticleComponent.cpp">
       <Filter>render</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\render\Renderable.cpp">
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\render\Renderable.cpp">
       <Filter>render</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\render\input\gamepad.cc">
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\render\Node.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\render\NodeManager.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\render\input\gamepad.cc">
       <Filter>input</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\render\input\inputserver.cc">
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\render\input\inputserver.cc">
       <Filter>input</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\render\input\key.cc">
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\render\input\key.cc">
       <Filter>input</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\config.cc">
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\config.cc">
       <Filter>pch</Filter>
+    </ClCompile>
+    <ClCompile Include="RayCastComponent.cpp">
+      <Filter>render</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\render\window.h">
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\render\window.h">
       <Filter>display</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\render\model.h">
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\render\model.h">
       <Filter>render</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\render\renderdevice.h">
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\render\renderdevice.h">
       <Filter>render</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\render\shaderresource.h">
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\render\shaderresource.h">
       <Filter>render</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\render\textureresource.h">
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\render\textureresource.h">
       <Filter>render</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\render\lightserver.h">
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\render\lightserver.h">
       <Filter>render</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\render\cameramanager.h">
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\render\cameramanager.h">
       <Filter>render</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\render\debugrender.h">
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\render\debugrender.h">
       <Filter>render</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\render\grid.h">
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\render\grid.h">
       <Filter>render</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\render\lightsources.h">
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\render\lightsources.h">
       <Filter>render</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\render\physics.h">
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\render\physics.h">
       <Filter>render</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\render\resourceid.h">
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\render\resourceid.h">
       <Filter>render</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\render\particlesystem.h">
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\render\particlesystem.h">
       <Filter>render</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\render\CameraComponent.h">
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\render\CameraComponent.h">
       <Filter>render</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\render\CollisionMesh.h">
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\render\CollisionMesh.h">
       <Filter>render</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\render\ContinuesMovement.h">
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\render\ContinuesMovement.h">
       <Filter>render</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\render\ParticleComponent.h">
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\render\ParticleComponent.h">
       <Filter>render</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\render\Renderable.h">
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\render\Renderable.h">
       <Filter>render</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\render\stb_image.h">
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\render\Node.h">
       <Filter>render</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\render\stb_image_write.h">
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\render\NodeManager.h">
       <Filter>render</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\render\json.hpp">
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\render\stb_image.h">
       <Filter>render</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\render\gltf.h">
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\render\stb_image_write.h">
       <Filter>render</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\render\input\gamepad.h">
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\render\json.hpp">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\render\gltf.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\render\input\gamepad.h">
       <Filter>input</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\render\input\inputserver.h">
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\render\input\inputserver.h">
       <Filter>input</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\render\input\key.h">
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\render\input\key.h">
       <Filter>input</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\render\input\keyboard.h">
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\render\input\keyboard.h">
       <Filter>input</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\render\input\mouse.h">
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\render\input\mouse.h">
       <Filter>input</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\config.h">
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\config.h">
       <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="RayCastComponent.h">
+      <Filter>render</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011e-game-engine-Bjornmalmgren\engine-lab-env-main\engine\render\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\render\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="display">
-      <UniqueIdentifier>{E92EC84E-4C6F-3004-AC61-438617B83BDD}</UniqueIdentifier>
+      <UniqueIdentifier>{3F84ACFF-56DA-3E3F-8D90-56A8536FD04B}</UniqueIdentifier>
     </Filter>
     <Filter Include="input">
-      <UniqueIdentifier>{D2D2BB97-D6B4-355D-AF75-C2C51C4D6B86}</UniqueIdentifier>
+      <UniqueIdentifier>{E23653BB-0B42-37BD-B0FC-B0D24FD58657}</UniqueIdentifier>
     </Filter>
     <Filter Include="pch">
-      <UniqueIdentifier>{63DE4658-C1B9-3F4C-86E4-44E05AD22C25}</UniqueIdentifier>
+      <UniqueIdentifier>{D6001D7E-1809-3825-A92B-D8DFDE06F927}</UniqueIdentifier>
     </Filter>
     <Filter Include="render">
-      <UniqueIdentifier>{A067699A-32C9-39DF-91CC-C139C84582B9}</UniqueIdentifier>
+      <UniqueIdentifier>{93CA0006-90B7-343D-9DFF-D2C1AD1680C0}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

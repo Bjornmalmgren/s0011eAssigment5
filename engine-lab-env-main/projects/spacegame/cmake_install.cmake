@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/projects/spacegame
+# Install script for directory: C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/projects/spacegame
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

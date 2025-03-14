@@ -3,7 +3,14 @@
 #include <vector>
 #include <map>
 
-
+enum SPACESHIPTYPE
+{
+	NONE,
+	PLAYER,
+	AI1,
+	AI2,
+	AI3,
+};
 using namespace Component;
 struct Entity
 {
@@ -17,6 +24,7 @@ public:
 	Entity();
 	~Entity();
 	bool Destroyed = false;
+	SPACESHIPTYPE spaceshipType;
 	ComponentBase* FindComponent(ComponentTypes type);
 	ComponentBase* FindComponent(ComponentTypes type, int num);
 	ComponentBase* FindComponent(int id);

@@ -41,6 +41,10 @@ SET(files_render_render
 	ParticleComponent.cpp
 	Renderable.h
 	Renderable.cpp
+	Node.cpp
+	Node.h
+	NodeManager.cpp
+	NodeManager.h
 
 	# external single header libs
 	stb_image.h

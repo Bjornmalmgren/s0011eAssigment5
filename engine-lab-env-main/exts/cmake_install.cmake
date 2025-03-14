@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/exts
+# Install script for directory: C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/exts
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,12 +34,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/exts/flatbuffers/cmake_install.cmake")
-  include("C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/exts/glm/cmake_install.cmake")
-  include("C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/exts/enet/cmake_install.cmake")
-  include("C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/exts/soloud/contrib/cmake_install.cmake")
-  include("C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/exts/glew/cmake_install.cmake")
-  include("C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/exts/glfw/cmake_install.cmake")
+  include("C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/exts/flatbuffers/cmake_install.cmake")
+  include("C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/exts/glm/cmake_install.cmake")
+  include("C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/exts/enet/cmake_install.cmake")
+  include("C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/exts/soloud/contrib/cmake_install.cmake")
+  include("C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/exts/glew/cmake_install.cmake")
+  include("C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/exts/glfw/cmake_install.cmake")
 
 endif()
 

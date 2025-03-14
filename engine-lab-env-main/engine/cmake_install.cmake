@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/engine
+# Install script for directory: C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/engine
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,8 +34,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/engine/core/cmake_install.cmake")
-  include("C:/Users/bjmall-3-local/Documents/GitHub/s0011e-game-engine-Bjornmalmgren/engine-lab-env-main/engine/render/cmake_install.cmake")
+  include("C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/engine/core/cmake_install.cmake")
+  include("C:/Users/bjmall-3-local/Documents/GitHub/s0011eAssigment5/engine-lab-env-main/engine/render/cmake_install.cmake")
 
 endif()
 

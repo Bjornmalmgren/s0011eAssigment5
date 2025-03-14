@@ -8,6 +8,8 @@
 #include "render/ParticleComponent.h"
 #include "render/Renderable.h"
 #include "render/particlesystem.h"
+#include "render/RayCastComponent.h"
+#include "core/AiMovement.h"
 void EntityId::CreateId(Entity* entity) {
 	if (nextValidid == entity->id) {
 		idpool.insert(std::pair<int32, Entity*>(entity->id, entity));
@@ -156,7 +158,14 @@ void Entity::Deallocate() {
 			((ContinuesMovement*)components[i])->rotZ = 0;
 			((ContinuesMovement*)components[i])->rotZSmooth = 0;
 			break;
-
+		case RAYCAST:
+			((RayCastComponent*)components[i])->owner = NULL;
+			((RayCastComponent*)components[i])->raycast = Physics::Raycast(glm::vec3(0,0,0), glm::vec3(0,0,0), 0);
+			break;
+		case AIMOVEMENT:
+			((AiMovement*)components[i])->owner = NULL;
+			
+			break;
 		default:
 			break;
 		}

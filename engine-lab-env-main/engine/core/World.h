@@ -8,6 +8,8 @@
 #include "render/CameraComponent.h"
 #include <vector>
 #include "core/StarShipManager.h"
+#include "render/RayCastComponent.h"
+#include "core/AiMovement.h"
 #include "Allocator.h"
 class World
 {
@@ -19,9 +21,12 @@ public:
 	Allocator<Component::CollisionMesh, 1024> collisionAllocator;
 	Allocator<Component::ContinuesMovement, 1024> cmovementAllocator;
 	Allocator<Component::ParticleComponent, 1024> particleAllocator;
-	Allocator<Component::InputComponent, 5> inputAllocator;
+	Allocator<Component::RayCastComponent, 500> raycastAllocator;
+	Allocator<Component::AiMovement, 100> aiAllocator;
+	Allocator<Component::InputComponent, 1> inputAllocator;
 	Allocator<Component::CameraComponent, 5> cameraAllocator;
 	Allocator<Entity, 1024> entityAllocator;
+	Entity* player;
 	Entity* FindEntity(int id);
 	bool respawnPlayer;
 	World();
@@ -31,6 +36,7 @@ public:
 	void StartEntitys();
 	void AddComponent(ComponentBase* component, int id);
 	void CreateSpaceShip();
+	void CreateAISpaceShip();
 	ComponentBase* FindEmptyComponent(ComponentTypes type);
 };
 

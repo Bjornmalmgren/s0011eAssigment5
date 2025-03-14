@@ -5,7 +5,8 @@ namespace Component {
 	class ParticleComponent : public ComponentBase
 	{
 	public:
-
+		const float normalSpeed = 1.0f;
+		float currentSpeed = 0;
 		float emitterOffset = -0.5f;
 		Render::ParticleEmitter* emiter;
 		int ID;

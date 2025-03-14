@@ -13,6 +13,8 @@ enum ComponentTypes
 	PARTICLEEMITTER,
 	LIGHTSOURCE,
 	INPUT,
+	RAYCAST,
+	AIMOVEMENT,
 };
 
 namespace Component {
