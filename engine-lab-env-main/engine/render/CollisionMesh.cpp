@@ -3,6 +3,8 @@
 #include "core/transform.h"
 #include "render/debugrender.h"
 void Component::CollisionMesh::Update(double dt) {
+    glm::mat4 m(glm::normalize(((Transform*)owner->FindComponent(TRANSFORM))->transform[0]), glm::normalize(((Transform*)owner->FindComponent(TRANSFORM))->transform[1]), glm::normalize(((Transform*)owner->FindComponent(TRANSFORM))->transform[2]), ((Transform*)owner->FindComponent(TRANSFORM))->transform[3]);
+    Physics::SetTransform(colliderID, m);
     if (collisionCheck == true) {
         CheckCollisions();
     }
@@ -20,10 +22,12 @@ bool Component::CollisionMesh::CheckCollisions()
         glm::vec3 pos = ((Transform*)owner->FindComponent(TRANSFORM))->position;
         glm::vec3 dir = ((Transform*)owner->FindComponent(TRANSFORM))->transform * glm::vec4(glm::normalize(colliderEndPoints[i]), 0.0f);
         float len = glm::length(colliderEndPoints[i]);
-        Physics::RaycastPayload payload = Physics::Raycast(((Transform*)owner->FindComponent(TRANSFORM))->position, dir, len);
+        Physics::RaycastPayload payload = Physics::Raycast(((Transform*)owner->FindComponent(TRANSFORM))->position, dir, len,1);
 
         // debug draw collision rays
-        Debug::DrawLine(pos, pos + dir * len, 1.0f, glm::vec4(0, 1, 0, 1), glm::vec4(0, 1, 0, 1), Debug::RenderMode::AlwaysOnTop);
+        if (owner->drawRaycasts == true) {
+            Debug::DrawLine(pos, pos + dir * len, 1.0f, glm::vec4(0, 1, 0, 1), glm::vec4(0, 1, 0, 1), Debug::RenderMode::AlwaysOnTop);    
+        }
 
         if (payload.hit)
         {

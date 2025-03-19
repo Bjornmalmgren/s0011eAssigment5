@@ -24,6 +24,7 @@ public:
 	Entity();
 	~Entity();
 	bool Destroyed = false;
+	bool drawRaycasts = false;
 	SPACESHIPTYPE spaceshipType;
 	ComponentBase* FindComponent(ComponentTypes type);
 	ComponentBase* FindComponent(ComponentTypes type, int num);

@@ -302,9 +302,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   <ItemGroup>
     <ClCompile Include="AiManager.cpp" />
     <ClCompile Include="AiMovement.cpp" />
+    <ClCompile Include="Allocators.cpp" />
     <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\Allocator.cpp" />
     <ClInclude Include="AiManager.h" />
     <ClInclude Include="AiMovement.h" />
+    <ClInclude Include="Allocators.h" />
     <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\Allocator.h" />
     <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\ComponentBase.cpp" />
     <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\ComponentBase.h" />

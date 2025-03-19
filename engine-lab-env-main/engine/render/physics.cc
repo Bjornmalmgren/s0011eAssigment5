@@ -239,8 +239,10 @@ Raycast(glm::vec3 start, glm::vec3 dir, float maxDistance, uint16_t mask)
     int numColliders = (int)colliders.active.size();
     for (int colliderIndex = 0; colliderIndex < numColliders; colliderIndex++)
     {
+        
         if (colliders.active[colliderIndex] && (mask == 0 || (colliders.masks[colliderIndex] & mask) != 0))
         {
+            
             ColliderMesh const* const mesh = &meshes[colliders.meshes[colliderIndex].index];
             glm::vec3 bSphereCenter = colliders.positionsAndScales[colliderIndex];
             float radius = mesh->bSphereRadius * colliders.positionsAndScales[colliderIndex][3];

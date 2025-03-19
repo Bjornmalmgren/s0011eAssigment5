@@ -4,11 +4,18 @@
 namespace Component {
 class RayCastComponent : public ComponentBase
 {
-	glm::vec3 dir;
 	float length;
+	glm::vec3 currentPos;
+	glm::vec3 currentPos2;
+	float currentLength = 0;
 public:
+	int mask = 1;
+	Physics::RaycastPayload raycast2;
+	glm::vec3 dir;
+	bool sendCast = false;
 	glm::vec3 pos;
 	Entity* owner;
+	bool slowMovingRay = false;
 	Physics::RaycastPayload raycast;
 	uint32_t id() { return 0; }
 	void Update(double dt);

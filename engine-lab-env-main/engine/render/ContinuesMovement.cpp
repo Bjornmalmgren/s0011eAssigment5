@@ -8,7 +8,7 @@ void Component::ContinuesMovement::Update(double dt) {
 	if (rotX > 0 || rotY > 0 || rotZ > 0) {
 		srand(time(0));
 		int random = rand() % 1001;
-		random += 7000;
+		random +=500;
 		float rotationSpeed = 1.3 * dt;
 		glm::mat4 transform = ((Transform*)owner->FindComponent(TRANSFORM))->transform;
 		glm::vec3 v = glm::vec3(0, 0, 0);

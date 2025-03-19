@@ -22,7 +22,6 @@
 #include "spaceship.h"
 #include "core/World.h"
 #include "render/NodeManager.h"
-#include "core/AiManager.h"
 using namespace Display;
 using namespace Render;
 using namespace Component;
@@ -119,6 +118,7 @@ SpaceGameApp::Run()
         Renderable* render = (Renderable*)world.FindEmptyComponent(RENDERABLE);
 ;
         render->owner = world.FindEntity(i+1);
+        world.FindEntity(i + 1)->spaceshipType = NONE;
         //render->owner = a[i];
         
         Transform* transf = (Transform*)world.FindEmptyComponent(TRANSFORM);
@@ -143,7 +143,7 @@ SpaceGameApp::Run()
         glm::vec3 rotationAxis = normalize(translation);
         float rotation = translation.x;
         glm::mat4 transform = glm::rotate(rotation, rotationAxis) * glm::translate(translation);
-        collison->colliderID = Physics::CreateCollider(colliderMeshes[resourceIndex], transform);
+        collison->colliderID = Physics::CreateCollider(colliderMeshes[resourceIndex], transform,1);
         transf->transform = transform;
 
         world.AddComponent(render, world.FindEntity(i + 1)->id);
@@ -162,7 +162,7 @@ SpaceGameApp::Run()
     {
         //Entity* as = new Entity();
         world.CreateEntity();
-
+        world.FindEntity(i + 101)->spaceshipType = NONE;
   
         Renderable* render = (Renderable*)world.FindEmptyComponent(RENDERABLE);
         ;
@@ -193,7 +193,7 @@ SpaceGameApp::Run()
         float rotation = translation.x;
         glm::mat4 transform = glm::rotate(rotation, rotationAxis) * glm::translate(translation);
        
-        collison->colliderID = Physics::CreateCollider(colliderMeshes[resourceIndex], transform);
+        collison->colliderID = Physics::CreateCollider(colliderMeshes[resourceIndex], transform,1);
         transf->transform = transform;
 
         world.AddComponent(render, world.FindEntity(i  + 101)->id);
@@ -242,8 +242,8 @@ SpaceGameApp::Run()
     nodeMGR->createNode(glm::vec3(-7, 21, 41));
 
     nodeMGR->createNode(glm::vec3(-10, 38, 22));
-    nodeMGR->createNode(glm::vec3(-13, -69, 28));
-    nodeMGR->createNode(glm::vec3(-3, 32, -44));
+    nodeMGR->createNode(glm::vec3(-13, -69, 10));
+    nodeMGR->createNode(glm::vec3(-3, 45, -70));
 
     nodeMGR->createNode(glm::vec3(8, -13, -33));
     nodeMGR->createNode(glm::vec3(-3, -35, -34));
@@ -272,8 +272,11 @@ SpaceGameApp::Run()
     nodeMGR->nodes[12]->neighBours.push_back(nodeMGR->nodes[0]);
 
     world.CreateSpaceShip();
-    world.CreateAISpaceShip();
-    AIManager->AI1 = world.entitys.back();
+    startshipManager->player = world.entitys.back();
+    world.CreateAISpaceShip(3, NEUTRAL, glm::vec4(1,1,0,1));
+    world.CreateAISpaceShip(7, DEFENSIVE, glm::vec4(0, 0, 1, 1));
+    world.CreateAISpaceShip(11, AGGRESIVE, glm::vec4(1, 0, 0, 1));
+    
 
     world.StartEntitys();
     std::clock_t c_start = std::clock();
@@ -309,14 +312,36 @@ SpaceGameApp::Run()
         }
         
         world.UpdateEntitys(dt);
-        if (AIManager->AI1 != NULL) {
-            if (AIManager->AI1->Destroyed == true) {
-                AIManager->AI1 = NULL;
-            }
+       
 
-
+        if (world.activeCameras < activeCamera) {
+            activeCamera = world.activeCameras;
         }
-        
+        else if (0 > activeCamera) {
+            activeCamera = 0;
+        }
+        else if (world.activeCamera != activeCamera) {
+            world.activeCamera = activeCamera;
+            int foundCameras = 0;
+            for (auto ent : world.entitys)
+            {
+                auto com = (CameraComponent*)ent->FindComponent(CAMERA);
+                if (com != NULL) {
+                    if (activeCamera == foundCameras) {
+                        com->cam = Render::CameraManager::GetCamera(CAMERA_MAIN);
+                      
+                    }
+                    else
+                    {
+                        com->cam = nullptr;
+                    }
+                    foundCameras++;
+
+                }
+            }
+           
+        }
+
         // Execute the entire rendering pipeline
         RenderDevice::Render(this->window, dt);
 
@@ -330,6 +355,9 @@ SpaceGameApp::Run()
             this->Exit();
 	}
 }
+
+
+
 
 //------------------------------------------------------------------------------
 /**
@@ -366,21 +394,16 @@ SpaceGameApp::RenderUI()
 
         ImGui::Begin("Draw Nodes");
         bool draw = nodeMGR->draw;
-        
+        int Camera = activeCamera;
+        if (ImGui::InputInt("Active Camera", (int*)&Camera)) {
+            activeCamera = Camera;
+        }
         if (ImGui::Button("Add node")) {
             nodeMGR->addNode = true;
         }
-        bool im = ImGui::Checkbox("Draw Nodes", &draw);
-        if (AIManager->AI1 != NULL) {
-            ImGui::InputFloat("PosX", &((Transform*)AIManager->AI1->FindComponent(TRANSFORM))->position.x);
-            ImGui::InputFloat("PosY", &((Transform*)AIManager->AI1->FindComponent(TRANSFORM))->position.y);
-            ImGui::InputFloat("PosZ", &((Transform*)AIManager->AI1->FindComponent(TRANSFORM))->position.z);
-            ImGui::InputFloat("Speed", &((AiMovement*)AIManager->AI1->FindComponent(AIMOVEMENT))->currentSpeed);
-            ImGui::InputInt("Slowing", &((AiMovement*)AIManager->AI1->FindComponent(AIMOVEMENT))->slowing);
-            ImGui::InputInt("Near a node", &((AiMovement*)AIManager->AI1->FindComponent(AIMOVEMENT))->nearNode);
-
-            
-        } 
+        ImGui::Checkbox("Show Raycasts", &startshipManager->drawRays);
+           
+        bool im = ImGui::Checkbox("Draw Nodes", &draw); 
         nodeMGR->draw = draw;
         ImGui::End();
         Debug::DispatchDebugTextDrawing();

@@ -1,12 +1,21 @@
 #pragma once
 #include "Entity.h"
 #include "render/NodeManager.h"
+enum MovementType
+{
+	AGGRESIVE,
+	DEFENSIVE,
+	NEUTRAL,
+};
+
 namespace Component {
 	class AiMovement : public ComponentBase
 	{
 		const float accelerationFactor = 1.0f;
 		const float normalSpeed = 1.0f;
+		int sec = 0;
 	public:
+		MovementType aiType;
 		float currentSpeed = 0.0f;
 		int slowing = 0;
 		int nearNode = 0;
@@ -15,7 +24,7 @@ namespace Component {
 		Entity* owner;
 		Node* nextNode;
 		Node* previousNode;
-		Node* nearestNode;
+		int nearestNode;
 		uint32_t id() { return 0; }
 		void Update(double dt);
 		void Start();

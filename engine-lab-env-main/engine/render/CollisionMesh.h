@@ -5,6 +5,7 @@ namespace Component {
 
 	class CollisionMesh : public ComponentBase
 	{
+		int sec = 0;
 	public:
 		glm::vec3 colliderEndPoints[17];
 		bool collisionCheck = false;

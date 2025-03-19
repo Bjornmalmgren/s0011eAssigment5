@@ -10,6 +10,7 @@
 #include "render/particlesystem.h"
 #include "render/RayCastComponent.h"
 #include "core/AiMovement.h"
+#include "core/AiManager.h"
 void EntityId::CreateId(Entity* entity) {
 	if (nextValidid == entity->id) {
 		idpool.insert(std::pair<int32, Entity*>(entity->id, entity));
@@ -108,6 +109,7 @@ ComponentBase* Entity::FindComponent(ComponentTypes type, int num) {
 }
 
 void Entity::Deallocate() {
+	Respawn r;
 	for (int i = 0; i < components.size(); i++)
 	{
 		switch (components[i]->type)
@@ -141,7 +143,7 @@ void Entity::Deallocate() {
 			((CollisionMesh*)components[i])->collisionCheck = false;
 			break;
 		case PARTICLEEMITTER:
-
+			r.color = ((ParticleComponent*)components[i])->emiter->data.startColor;
 			Render::ParticleSystem::Instance()->RemoveEmitter(((ParticleComponent*)components[i])->emiter);
 			((ParticleComponent*)components[i])->emiter = NULL;	
 			((ParticleComponent*)components[i])->owner = NULL;
@@ -163,9 +165,16 @@ void Entity::Deallocate() {
 			((RayCastComponent*)components[i])->raycast = Physics::Raycast(glm::vec3(0,0,0), glm::vec3(0,0,0), 0);
 			break;
 		case AIMOVEMENT:
+		{
 			((AiMovement*)components[i])->owner = NULL;
 			
+			r.aiType = ((AiMovement*)components[i])->aiType;
+			r.respawn = 0;
+			r.nearestNode = ((AiMovement*)components[i])->nearestNode;
+			AIManager->respawnvector.push_back(r);
 			break;
+		}
+			
 		default:
 			break;
 		}

@@ -18,18 +18,19 @@ public:
 	SpaceGameApp();
 	/// destructor
 	~SpaceGameApp();
-
 	/// open app
 	bool Open();
 	/// run app
 	void Run();
 	/// exit app
 	void Exit();
+	
+
 private:
 
 	/// show some ui things
 	void RenderUI();
-
+	int activeCamera = 0;
 	Display::Window* window;
 };
 } // namespace Game
