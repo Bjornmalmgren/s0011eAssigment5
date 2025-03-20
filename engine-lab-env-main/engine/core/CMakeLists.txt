@@ -5,6 +5,8 @@
 SET(files_core
 	Allocator.cpp
 	Allocator.h
+	Allocators.cpp
+	Allocators.h
 	ComponentBase.cpp
 	ComponentBase.h
 	Entity.cpp
@@ -26,6 +28,10 @@ SET(files_core
 	World.h
 	StarShipManager.h
 	StarShipManager.cpp
+	AiManager.h
+	AiManager.cpp
+	AiMovement.h
+	AiMovement.cpp
 	)
 SOURCE_GROUP("core" FILES ${files_core})
 	

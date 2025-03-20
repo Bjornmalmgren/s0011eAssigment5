@@ -85,16 +85,14 @@
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <MinimalRebuild>
-      </MinimalRebuild>
+      <MinimalRebuild></MinimalRebuild>
       <Optimization>Disabled</Optimization>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>config.h</PrecompiledHeaderFile>
       <PrecompiledHeaderOutputFile>$(Configuration)/core.pch</PrecompiledHeaderOutputFile>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <SupportJustMyCode>
-      </SupportJustMyCode>
+      <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;GLEW_STATIC;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
@@ -125,16 +123,14 @@
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <MinimalRebuild>
-      </MinimalRebuild>
+      <MinimalRebuild></MinimalRebuild>
       <Optimization>MaxSpeed</Optimization>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>config.h</PrecompiledHeaderFile>
       <PrecompiledHeaderOutputFile>$(Configuration)/core.pch</PrecompiledHeaderOutputFile>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <SupportJustMyCode>
-      </SupportJustMyCode>
+      <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLEW_STATIC;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
@@ -167,16 +163,14 @@
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <MinimalRebuild>
-      </MinimalRebuild>
+      <MinimalRebuild></MinimalRebuild>
       <Optimization>MinSpace</Optimization>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>config.h</PrecompiledHeaderFile>
       <PrecompiledHeaderOutputFile>$(Configuration)/core.pch</PrecompiledHeaderOutputFile>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <SupportJustMyCode>
-      </SupportJustMyCode>
+      <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLEW_STATIC;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
@@ -210,16 +204,14 @@
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <MinimalRebuild>
-      </MinimalRebuild>
+      <MinimalRebuild></MinimalRebuild>
       <Optimization>MaxSpeed</Optimization>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>config.h</PrecompiledHeaderFile>
       <PrecompiledHeaderOutputFile>$(Configuration)/core.pch</PrecompiledHeaderOutputFile>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <SupportJustMyCode>
-      </SupportJustMyCode>
+      <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLEW_STATIC;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
@@ -300,14 +292,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="AiManager.cpp" />
-    <ClCompile Include="AiMovement.cpp" />
-    <ClCompile Include="Allocators.cpp" />
     <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\Allocator.cpp" />
-    <ClInclude Include="AiManager.h" />
-    <ClInclude Include="AiMovement.h" />
-    <ClInclude Include="Allocators.h" />
     <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\Allocator.h" />
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\Allocators.cpp" />
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\Allocators.h" />
     <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\ComponentBase.cpp" />
     <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\ComponentBase.h" />
     <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\Entity.cpp" />
@@ -329,6 +317,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\World.h" />
     <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\StarShipManager.h" />
     <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\StarShipManager.cpp" />
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\AiManager.h" />
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\AiManager.cpp" />
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\AiMovement.h" />
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\AiMovement.cpp" />
     <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\config.h" />
     <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\config.cc">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

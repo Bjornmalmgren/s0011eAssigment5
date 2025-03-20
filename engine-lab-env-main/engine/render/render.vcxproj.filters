@@ -67,9 +67,6 @@
     <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\config.cc">
       <Filter>pch</Filter>
     </ClCompile>
-    <ClCompile Include="RayCastComponent.cpp">
-      <Filter>render</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\render\window.h">
@@ -161,9 +158,6 @@
     </ClInclude>
     <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\config.h">
       <Filter>pch</Filter>
-    </ClInclude>
-    <ClInclude Include="RayCastComponent.h">
-      <Filter>render</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

@@ -4,6 +4,9 @@
     <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\Allocator.cpp">
       <Filter>core</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\Allocators.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
     <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\ComponentBase.cpp">
       <Filter>core</Filter>
     </ClCompile>
@@ -34,15 +37,21 @@
     <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\StarShipManager.cpp">
       <Filter>core</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\AiManager.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\AiMovement.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
     <ClCompile Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\config.cc">
       <Filter>pch</Filter>
     </ClCompile>
-    <ClCompile Include="AiMovement.cpp" />
-    <ClCompile Include="AiManager.cpp" />
-    <ClCompile Include="Allocators.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\Allocator.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\Allocators.h">
       <Filter>core</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\ComponentBase.h">
@@ -78,12 +87,15 @@
     <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\StarShipManager.h">
       <Filter>core</Filter>
     </ClInclude>
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\AiManager.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\AiMovement.h">
+      <Filter>core</Filter>
+    </ClInclude>
     <ClInclude Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\config.h">
       <Filter>pch</Filter>
     </ClInclude>
-    <ClInclude Include="AiMovement.h" />
-    <ClInclude Include="AiManager.h" />
-    <ClInclude Include="Allocators.h" />
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\bjmall-3-local\Documents\GitHub\s0011eAssigment5\engine-lab-env-main\engine\core\CMakeLists.txt" />
