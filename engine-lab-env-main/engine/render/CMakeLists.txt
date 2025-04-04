@@ -45,7 +45,9 @@ SET(files_render_render
 	Node.h
 	NodeManager.cpp
 	NodeManager.h
-
+	RayCastComponent.h
+	RayCastComponent.cpp
+ 
 	# external single header libs
 	stb_image.h
 	stb_image_write.h
